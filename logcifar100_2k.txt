@@ -1,0 +1,2040 @@
+====================================================================================================
+====================================================================================================
+-----------------------------run 0 start--------------------------
+2024-05-24 15:56:05
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 0 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 67.79 , APA 5.8655 , 6.4%
+==>>> it: 24, loss: ce 27.03 , APA 5.8776 , 80.0%
+==>>> it: 31, loss: ce 15.42 , APA 5.8770 , 100.0%
+Test task 0: Accuracy: 575/1000 (57.50%)
+tasks acc:[57.5  0.   0.   0.   0.   0.   0.   0.   0.   0. ]
+tasks avg acc:57.5
+-----------------------------run 0 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 16.65 , APA 5.9811 , 6.4%
+==>>> it: 24, loss: ce 10.42 , APA 6.4360 , 80.0%
+==>>> it: 31, loss: ce 4.36 , APA 6.1539 , 100.0%
+Test task 0: Accuracy: 520/1000 (52.00%)
+Test task 1: Accuracy: 390/1000 (39.00%)
+tasks acc:[52. 39.  0.  0.  0.  0.  0.  0.  0.  0.]
+tasks avg acc:45.5
+-----------------------------run 0 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 20.41 , APA 6.4205 , 6.4%
+==>>> it: 24, loss: ce 6.12 , APA 6.4645 , 80.0%
+==>>> it: 31, loss: ce 5.76 , APA 5.8310 , 100.0%
+Test task 0: Accuracy: 546/1000 (54.60%)
+Test task 1: Accuracy: 491/1000 (49.10%)
+Test task 2: Accuracy: 415/1000 (41.50%)
+tasks acc:[54.59999847 49.09999847 41.5         0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.3999989827474
+-----------------------------run 0 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 2.46 , APA 6.5513 , 6.4%
+==>>> it: 24, loss: ce 2.68 , APA 6.7051 , 80.0%
+==>>> it: 31, loss: ce 13.68 , APA 6.3990 , 100.0%
+Test task 0: Accuracy: 559/1000 (55.90%)
+Test task 1: Accuracy: 478/1000 (47.80%)
+Test task 2: Accuracy: 436/1000 (43.60%)
+Test task 3: Accuracy: 441/1000 (44.10%)
+tasks acc:[55.90000153 47.79999924 43.59999847 44.09999847  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:47.84999942779541
+-----------------------------run 0 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 6.77 , APA 6.3685 , 6.4%
+==>>> it: 24, loss: ce 3.73 , APA 6.3183 , 80.0%
+==>>> it: 31, loss: ce 4.46 , APA 6.1361 , 100.0%
+Test task 0: Accuracy: 458/1000 (45.80%)
+Test task 1: Accuracy: 472/1000 (47.20%)
+Test task 2: Accuracy: 449/1000 (44.90%)
+Test task 3: Accuracy: 533/1000 (53.30%)
+Test task 4: Accuracy: 435/1000 (43.50%)
+tasks acc:[45.79999924 47.20000076 44.90000153 53.29999924 43.5         0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.94000015258789
+-----------------------------run 0 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 2.95 , APA 6.2801 , 6.4%
+==>>> it: 24, loss: ce 4.36 , APA 6.5610 , 80.0%
+==>>> it: 31, loss: ce 3.12 , APA 6.0159 , 100.0%
+Test task 0: Accuracy: 469/1000 (46.90%)
+Test task 1: Accuracy: 432/1000 (43.20%)
+Test task 2: Accuracy: 512/1000 (51.20%)
+Test task 3: Accuracy: 493/1000 (49.30%)
+Test task 4: Accuracy: 444/1000 (44.40%)
+Test task 5: Accuracy: 383/1000 (38.30%)
+tasks acc:[46.90000153 43.20000076 51.20000076 49.29999924 44.40000153 38.29999924
+  0.          0.          0.          0.        ]
+tasks avg acc:45.550000508626304
+-----------------------------run 0 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 6.25 , APA 6.3799 , 6.4%
+==>>> it: 24, loss: ce 6.25 , APA 6.1106 , 80.0%
+==>>> it: 31, loss: ce 4.43 , APA 6.0391 , 100.0%
+Test task 0: Accuracy: 529/1000 (52.90%)
+Test task 1: Accuracy: 465/1000 (46.50%)
+Test task 2: Accuracy: 433/1000 (43.30%)
+Test task 3: Accuracy: 511/1000 (51.10%)
+Test task 4: Accuracy: 412/1000 (41.20%)
+Test task 5: Accuracy: 452/1000 (45.20%)
+Test task 6: Accuracy: 469/1000 (46.90%)
+tasks acc:[52.90000153 46.5        43.29999924 51.09999847 41.20000076 45.20000076
+ 46.90000153  0.          0.          0.        ]
+tasks avg acc:46.72857175554548
+-----------------------------run 0 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 5.67 , APA 6.5416 , 6.4%
+==>>> it: 24, loss: ce 4.31 , APA 6.5299 , 80.0%
+==>>> it: 31, loss: ce 4.77 , APA 5.9295 , 100.0%
+Test task 0: Accuracy: 485/1000 (48.50%)
+Test task 1: Accuracy: 437/1000 (43.70%)
+Test task 2: Accuracy: 484/1000 (48.40%)
+Test task 3: Accuracy: 457/1000 (45.70%)
+Test task 4: Accuracy: 474/1000 (47.40%)
+Test task 5: Accuracy: 506/1000 (50.60%)
+Test task 6: Accuracy: 486/1000 (48.60%)
+Test task 7: Accuracy: 370/1000 (37.00%)
+tasks acc:[48.5        43.70000076 48.40000153 45.70000076 47.40000153 50.59999847
+ 48.59999847 37.          0.          0.        ]
+tasks avg acc:46.23750019073486
+-----------------------------run 0 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 4.37 , APA 6.7570 , 6.4%
+==>>> it: 24, loss: ce 3.61 , APA 6.4530 , 80.0%
+==>>> it: 31, loss: ce 4.28 , APA 5.8975 , 100.0%
+Test task 0: Accuracy: 449/1000 (44.90%)
+Test task 1: Accuracy: 398/1000 (39.80%)
+Test task 2: Accuracy: 479/1000 (47.90%)
+Test task 3: Accuracy: 454/1000 (45.40%)
+Test task 4: Accuracy: 404/1000 (40.40%)
+Test task 5: Accuracy: 441/1000 (44.10%)
+Test task 6: Accuracy: 454/1000 (45.40%)
+Test task 7: Accuracy: 406/1000 (40.60%)
+Test task 8: Accuracy: 516/1000 (51.60%)
+tasks acc:[44.90000153 39.79999924 47.90000153 45.40000153 40.40000153 44.09999847
+ 45.40000153 40.59999847 51.59999847  0.        ]
+tasks avg acc:44.455555809868706
+-----------------------------run 0 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.77 , APA 6.5107 , 6.4%
+==>>> it: 24, loss: ce 4.32 , APA 6.4894 , 80.0%
+==>>> it: 31, loss: ce 4.60 , APA 5.7966 , 100.0%
+Test task 0: Accuracy: 437/1000 (43.70%)
+Test task 1: Accuracy: 379/1000 (37.90%)
+Test task 2: Accuracy: 511/1000 (51.10%)
+Test task 3: Accuracy: 386/1000 (38.60%)
+Test task 4: Accuracy: 481/1000 (48.10%)
+Test task 5: Accuracy: 431/1000 (43.10%)
+Test task 6: Accuracy: 432/1000 (43.20%)
+Test task 7: Accuracy: 434/1000 (43.40%)
+Test task 8: Accuracy: 498/1000 (49.80%)
+Test task 9: Accuracy: 461/1000 (46.10%)
+tasks acc:[43.70000076 37.90000153 51.09999847 38.59999847 48.09999847 43.09999847
+ 43.20000076 43.40000153 49.79999924 46.09999847]
+tasks avg acc:44.499999618530275
+====================================================================================================
+0th run's Test result: Accuracy: 44.50%
+====================================================================================================
+====================================================================================================
+-----------------------------run 1 start--------------------------
+2024-05-24 16:00:48
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 1 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 63.95 , APA 5.8722 , 6.4%
+==>>> it: 24, loss: ce 7.45 , APA 5.7972 , 80.0%
+==>>> it: 31, loss: ce 6.40 , APA 5.7857 , 100.0%
+Test task 0: Accuracy: 566/1000 (56.60%)
+tasks acc:[56.59999847  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:56.599998474121094
+-----------------------------run 1 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 18.03 , APA 5.9005 , 6.4%
+==>>> it: 24, loss: ce 4.70 , APA 6.2905 , 80.0%
+==>>> it: 31, loss: ce 6.68 , APA 6.2870 , 100.0%
+Test task 0: Accuracy: 599/1000 (59.90%)
+Test task 1: Accuracy: 465/1000 (46.50%)
+tasks acc:[59.90000153 46.5         0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:53.20000076293945
+-----------------------------run 1 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 5.25 , APA 6.4116 , 6.4%
+==>>> it: 24, loss: ce 5.59 , APA 6.1516 , 80.0%
+==>>> it: 31, loss: ce 5.48 , APA 6.2742 , 100.0%
+Test task 0: Accuracy: 492/1000 (49.20%)
+Test task 1: Accuracy: 511/1000 (51.10%)
+Test task 2: Accuracy: 530/1000 (53.00%)
+tasks acc:[49.20000076 51.09999847 53.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:51.09999974568685
+-----------------------------run 1 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 5.53 , APA 6.4685 , 6.4%
+==>>> it: 24, loss: ce 4.36 , APA 6.0063 , 80.0%
+==>>> it: 31, loss: ce 4.86 , APA 5.8469 , 100.0%
+Test task 0: Accuracy: 471/1000 (47.10%)
+Test task 1: Accuracy: 597/1000 (59.70%)
+Test task 2: Accuracy: 493/1000 (49.30%)
+Test task 3: Accuracy: 488/1000 (48.80%)
+tasks acc:[47.09999847 59.70000076 49.29999924 48.79999924  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:51.22499942779541
+-----------------------------run 1 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 3.58 , APA 6.4221 , 6.4%
+==>>> it: 24, loss: ce 4.02 , APA 6.0636 , 80.0%
+==>>> it: 31, loss: ce 3.92 , APA 6.2088 , 100.0%
+Test task 0: Accuracy: 418/1000 (41.80%)
+Test task 1: Accuracy: 450/1000 (45.00%)
+Test task 2: Accuracy: 525/1000 (52.50%)
+Test task 3: Accuracy: 464/1000 (46.40%)
+Test task 4: Accuracy: 465/1000 (46.50%)
+tasks acc:[41.79999924 45.         52.5        46.40000153 46.5         0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.44000015258789
+-----------------------------run 1 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 4.44 , APA 6.2478 , 6.4%
+==>>> it: 24, loss: ce 3.26 , APA 6.1903 , 80.0%
+==>>> it: 31, loss: ce 5.96 , APA 6.1118 , 100.0%
+Test task 0: Accuracy: 442/1000 (44.20%)
+Test task 1: Accuracy: 489/1000 (48.90%)
+Test task 2: Accuracy: 514/1000 (51.40%)
+Test task 3: Accuracy: 553/1000 (55.30%)
+Test task 4: Accuracy: 489/1000 (48.90%)
+Test task 5: Accuracy: 373/1000 (37.30%)
+tasks acc:[44.20000076 48.90000153 51.40000153 55.29999924 48.90000153 37.29999924
+  0.          0.          0.          0.        ]
+tasks avg acc:47.66666730244955
+-----------------------------run 1 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 3.72 , APA 6.2648 , 6.4%
+==>>> it: 24, loss: ce 4.33 , APA 5.9259 , 80.0%
+==>>> it: 31, loss: ce 3.44 , APA 5.8448 , 100.0%
+Test task 0: Accuracy: 459/1000 (45.90%)
+Test task 1: Accuracy: 574/1000 (57.40%)
+Test task 2: Accuracy: 544/1000 (54.40%)
+Test task 3: Accuracy: 480/1000 (48.00%)
+Test task 4: Accuracy: 432/1000 (43.20%)
+Test task 5: Accuracy: 514/1000 (51.40%)
+Test task 6: Accuracy: 417/1000 (41.70%)
+tasks acc:[45.90000153 57.40000153 54.40000153 48.         43.20000076 51.40000153
+ 41.70000076  0.          0.          0.        ]
+tasks avg acc:48.857143947056365
+-----------------------------run 1 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 4.94 , APA 6.7095 , 6.4%
+==>>> it: 24, loss: ce 2.25 , APA 6.0390 , 80.0%
+==>>> it: 31, loss: ce 4.59 , APA 5.8980 , 100.0%
+Test task 0: Accuracy: 434/1000 (43.40%)
+Test task 1: Accuracy: 451/1000 (45.10%)
+Test task 2: Accuracy: 479/1000 (47.90%)
+Test task 3: Accuracy: 535/1000 (53.50%)
+Test task 4: Accuracy: 482/1000 (48.20%)
+Test task 5: Accuracy: 568/1000 (56.80%)
+Test task 6: Accuracy: 454/1000 (45.40%)
+Test task 7: Accuracy: 493/1000 (49.30%)
+tasks acc:[43.40000153 45.09999847 47.90000153 53.5        48.20000076 56.79999924
+ 45.40000153 49.29999924  0.          0.        ]
+tasks avg acc:48.700000286102295
+-----------------------------run 1 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 7.44 , APA 6.2435 , 6.4%
+==>>> it: 24, loss: ce 3.80 , APA 6.0218 , 80.0%
+==>>> it: 31, loss: ce 2.99 , APA 5.6040 , 100.0%
+Test task 0: Accuracy: 429/1000 (42.90%)
+Test task 1: Accuracy: 436/1000 (43.60%)
+Test task 2: Accuracy: 573/1000 (57.30%)
+Test task 3: Accuracy: 469/1000 (46.90%)
+Test task 4: Accuracy: 448/1000 (44.80%)
+Test task 5: Accuracy: 495/1000 (49.50%)
+Test task 6: Accuracy: 457/1000 (45.70%)
+Test task 7: Accuracy: 432/1000 (43.20%)
+Test task 8: Accuracy: 458/1000 (45.80%)
+tasks acc:[42.90000153 43.59999847 57.29999924 46.90000153 44.79999924 49.5
+ 45.70000076 43.20000076 45.79999924  0.        ]
+tasks avg acc:46.633333418104385
+-----------------------------run 1 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.71 , APA 6.5013 , 6.4%
+==>>> it: 24, loss: ce 3.45 , APA 5.9959 , 80.0%
+==>>> it: 31, loss: ce 3.59 , APA 6.3302 , 100.0%
+Test task 0: Accuracy: 403/1000 (40.30%)
+Test task 1: Accuracy: 485/1000 (48.50%)
+Test task 2: Accuracy: 521/1000 (52.10%)
+Test task 3: Accuracy: 462/1000 (46.20%)
+Test task 4: Accuracy: 511/1000 (51.10%)
+Test task 5: Accuracy: 404/1000 (40.40%)
+Test task 6: Accuracy: 466/1000 (46.60%)
+Test task 7: Accuracy: 428/1000 (42.80%)
+Test task 8: Accuracy: 477/1000 (47.70%)
+Test task 9: Accuracy: 373/1000 (37.30%)
+tasks acc:[40.29999924 48.5        52.09999847 46.20000076 51.09999847 40.40000153
+ 46.59999847 42.79999924 47.70000076 37.29999924]
+tasks avg acc:45.29999961853027
+====================================================================================================
+1th run's Test result: Accuracy: 45.30%
+====================================================================================================
+====================================================================================================
+-----------------------------run 2 start--------------------------
+2024-05-24 16:05:32
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 2 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 65.35 , APA 5.8551 , 6.4%
+==>>> it: 24, loss: ce 16.11 , APA 5.8240 , 80.0%
+==>>> it: 31, loss: ce 9.33 , APA 5.6330 , 100.0%
+Test task 0: Accuracy: 560/1000 (56.00%)
+tasks acc:[56.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+tasks avg acc:56.0
+-----------------------------run 2 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 6.80 , APA 5.9607 , 6.4%
+==>>> it: 24, loss: ce 3.57 , APA 6.4076 , 80.0%
+==>>> it: 31, loss: ce 2.90 , APA 6.2486 , 100.0%
+Test task 0: Accuracy: 489/1000 (48.90%)
+Test task 1: Accuracy: 444/1000 (44.40%)
+tasks acc:[48.90000153 44.40000153  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.650001525878906
+-----------------------------run 2 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 7.97 , APA 6.4067 , 6.4%
+==>>> it: 24, loss: ce 9.00 , APA 6.4737 , 80.0%
+==>>> it: 31, loss: ce 5.78 , APA 6.4648 , 100.0%
+Test task 0: Accuracy: 440/1000 (44.00%)
+Test task 1: Accuracy: 487/1000 (48.70%)
+Test task 2: Accuracy: 476/1000 (47.60%)
+tasks acc:[44.         48.70000076 47.59999847  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.766666412353516
+-----------------------------run 2 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 5.32 , APA 6.5870 , 6.4%
+==>>> it: 24, loss: ce 3.37 , APA 6.2170 , 80.0%
+==>>> it: 31, loss: ce 5.08 , APA 6.1051 , 100.0%
+Test task 0: Accuracy: 455/1000 (45.50%)
+Test task 1: Accuracy: 425/1000 (42.50%)
+Test task 2: Accuracy: 550/1000 (55.00%)
+Test task 3: Accuracy: 529/1000 (52.90%)
+tasks acc:[45.5        42.5        55.         52.90000153  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.97500038146973
+-----------------------------run 2 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 8.50 , APA 6.2982 , 6.4%
+==>>> it: 24, loss: ce 2.82 , APA 6.5586 , 80.0%
+==>>> it: 31, loss: ce 6.15 , APA 6.2141 , 100.0%
+Test task 0: Accuracy: 493/1000 (49.30%)
+Test task 1: Accuracy: 449/1000 (44.90%)
+Test task 2: Accuracy: 422/1000 (42.20%)
+Test task 3: Accuracy: 440/1000 (44.00%)
+Test task 4: Accuracy: 556/1000 (55.60%)
+tasks acc:[49.29999924 44.90000153 42.20000076 44.         55.59999847  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:47.2
+-----------------------------run 2 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 3.55 , APA 6.5074 , 6.4%
+==>>> it: 24, loss: ce 5.76 , APA 5.9917 , 80.0%
+==>>> it: 31, loss: ce 4.77 , APA 6.3540 , 100.0%
+Test task 0: Accuracy: 392/1000 (39.20%)
+Test task 1: Accuracy: 478/1000 (47.80%)
+Test task 2: Accuracy: 417/1000 (41.70%)
+Test task 3: Accuracy: 442/1000 (44.20%)
+Test task 4: Accuracy: 390/1000 (39.00%)
+Test task 5: Accuracy: 475/1000 (47.50%)
+tasks acc:[39.20000076 47.79999924 41.70000076 44.20000076 39.         47.5
+  0.          0.          0.          0.        ]
+tasks avg acc:43.233333587646484
+-----------------------------run 2 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 6.06 , APA 6.7179 , 6.4%
+==>>> it: 24, loss: ce 5.02 , APA 6.4091 , 80.0%
+==>>> it: 31, loss: ce 4.25 , APA 5.6556 , 100.0%
+Test task 0: Accuracy: 489/1000 (48.90%)
+Test task 1: Accuracy: 403/1000 (40.30%)
+Test task 2: Accuracy: 412/1000 (41.20%)
+Test task 3: Accuracy: 408/1000 (40.80%)
+Test task 4: Accuracy: 440/1000 (44.00%)
+Test task 5: Accuracy: 460/1000 (46.00%)
+Test task 6: Accuracy: 465/1000 (46.50%)
+tasks acc:[48.90000153 40.29999924 41.20000076 40.79999924 44.         46.
+ 46.5         0.          0.          0.        ]
+tasks avg acc:43.95714296613421
+-----------------------------run 2 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 4.27 , APA 6.5449 , 6.4%
+==>>> it: 24, loss: ce 3.57 , APA 6.1709 , 80.0%
+==>>> it: 31, loss: ce 4.71 , APA 6.0738 , 100.0%
+Test task 0: Accuracy: 404/1000 (40.40%)
+Test task 1: Accuracy: 418/1000 (41.80%)
+Test task 2: Accuracy: 455/1000 (45.50%)
+Test task 3: Accuracy: 429/1000 (42.90%)
+Test task 4: Accuracy: 395/1000 (39.50%)
+Test task 5: Accuracy: 440/1000 (44.00%)
+Test task 6: Accuracy: 431/1000 (43.10%)
+Test task 7: Accuracy: 508/1000 (50.80%)
+tasks acc:[40.40000153 41.79999924 45.5        42.90000153 39.5        44.
+ 43.09999847 50.79999924  0.          0.        ]
+tasks avg acc:43.5
+-----------------------------run 2 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 4.94 , APA 6.5396 , 6.4%
+==>>> it: 24, loss: ce 2.79 , APA 6.5801 , 80.0%
+==>>> it: 31, loss: ce 4.35 , APA 6.3440 , 100.0%
+Test task 0: Accuracy: 414/1000 (41.40%)
+Test task 1: Accuracy: 449/1000 (44.90%)
+Test task 2: Accuracy: 427/1000 (42.70%)
+Test task 3: Accuracy: 430/1000 (43.00%)
+Test task 4: Accuracy: 406/1000 (40.60%)
+Test task 5: Accuracy: 518/1000 (51.80%)
+Test task 6: Accuracy: 376/1000 (37.60%)
+Test task 7: Accuracy: 466/1000 (46.60%)
+Test task 8: Accuracy: 454/1000 (45.40%)
+tasks acc:[41.40000153 44.90000153 42.70000076 43.         40.59999847 51.79999924
+ 37.59999847 46.59999847 45.40000153  0.        ]
+tasks avg acc:43.77777777777778
+-----------------------------run 2 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.78 , APA 6.0356 , 6.4%
+==>>> it: 24, loss: ce 3.63 , APA 6.3638 , 80.0%
+==>>> it: 31, loss: ce 3.11 , APA 6.0521 , 100.0%
+Test task 0: Accuracy: 545/1000 (54.50%)
+Test task 1: Accuracy: 422/1000 (42.20%)
+Test task 2: Accuracy: 490/1000 (49.00%)
+Test task 3: Accuracy: 447/1000 (44.70%)
+Test task 4: Accuracy: 483/1000 (48.30%)
+Test task 5: Accuracy: 484/1000 (48.40%)
+Test task 6: Accuracy: 493/1000 (49.30%)
+Test task 7: Accuracy: 400/1000 (40.00%)
+Test task 8: Accuracy: 391/1000 (39.10%)
+Test task 9: Accuracy: 413/1000 (41.30%)
+tasks acc:[54.5        42.20000076 49.         44.70000076 48.29999924 48.40000153
+ 49.29999924 40.         39.09999847 41.29999924]
+tasks avg acc:45.679999923706056
+====================================================================================================
+2th run's Test result: Accuracy: 45.68%
+====================================================================================================
+====================================================================================================
+-----------------------------run 3 start--------------------------
+2024-05-24 16:10:20
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 3 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 75.19 , APA 5.8618 , 6.4%
+==>>> it: 24, loss: ce 9.48 , APA 5.8262 , 80.0%
+==>>> it: 31, loss: ce 10.28 , APA 5.8250 , 100.0%
+Test task 0: Accuracy: 561/1000 (56.10%)
+tasks acc:[56.09999847  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:56.099998474121094
+-----------------------------run 3 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 11.89 , APA 5.8422 , 6.4%
+==>>> it: 24, loss: ce 4.53 , APA 6.3490 , 80.0%
+==>>> it: 31, loss: ce 6.99 , APA 6.4061 , 100.0%
+Test task 0: Accuracy: 578/1000 (57.80%)
+Test task 1: Accuracy: 388/1000 (38.80%)
+tasks acc:[57.79999924 38.79999924  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.29999923706055
+-----------------------------run 3 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 7.54 , APA 6.4038 , 6.4%
+==>>> it: 24, loss: ce 2.40 , APA 6.5130 , 80.0%
+==>>> it: 31, loss: ce 7.47 , APA 6.3293 , 100.0%
+Test task 0: Accuracy: 449/1000 (44.90%)
+Test task 1: Accuracy: 514/1000 (51.40%)
+Test task 2: Accuracy: 430/1000 (43.00%)
+tasks acc:[44.90000153 51.40000153 43.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.43333435058594
+-----------------------------run 3 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 3.15 , APA 6.4235 , 6.4%
+==>>> it: 24, loss: ce 4.34 , APA 6.5435 , 80.0%
+==>>> it: 31, loss: ce 6.02 , APA 6.5357 , 100.0%
+Test task 0: Accuracy: 530/1000 (53.00%)
+Test task 1: Accuracy: 486/1000 (48.60%)
+Test task 2: Accuracy: 430/1000 (43.00%)
+Test task 3: Accuracy: 390/1000 (39.00%)
+tasks acc:[53.         48.59999847 43.         39.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:45.89999961853027
+-----------------------------run 3 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 5.79 , APA 6.5220 , 6.4%
+==>>> it: 24, loss: ce 3.36 , APA 6.5977 , 80.0%
+==>>> it: 31, loss: ce 7.90 , APA 6.6275 , 100.0%
+Test task 0: Accuracy: 407/1000 (40.70%)
+Test task 1: Accuracy: 385/1000 (38.50%)
+Test task 2: Accuracy: 400/1000 (40.00%)
+Test task 3: Accuracy: 380/1000 (38.00%)
+Test task 4: Accuracy: 547/1000 (54.70%)
+tasks acc:[40.70000076 38.5        40.         38.         54.70000076  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:42.380000305175784
+-----------------------------run 3 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 11.22 , APA 6.6836 , 6.4%
+==>>> it: 24, loss: ce 5.89 , APA 6.5653 , 80.0%
+==>>> it: 31, loss: ce 5.51 , APA 6.4020 , 100.0%
+Test task 0: Accuracy: 481/1000 (48.10%)
+Test task 1: Accuracy: 440/1000 (44.00%)
+Test task 2: Accuracy: 455/1000 (45.50%)
+Test task 3: Accuracy: 409/1000 (40.90%)
+Test task 4: Accuracy: 403/1000 (40.30%)
+Test task 5: Accuracy: 396/1000 (39.60%)
+tasks acc:[48.09999847 44.         45.5        40.90000153 40.29999924 39.59999847
+  0.          0.          0.          0.        ]
+tasks avg acc:43.06666628519694
+-----------------------------run 3 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 5.77 , APA 6.4198 , 6.4%
+==>>> it: 24, loss: ce 3.95 , APA 6.3621 , 80.0%
+==>>> it: 31, loss: ce 5.35 , APA 6.3374 , 100.0%
+Test task 0: Accuracy: 431/1000 (43.10%)
+Test task 1: Accuracy: 434/1000 (43.40%)
+Test task 2: Accuracy: 410/1000 (41.00%)
+Test task 3: Accuracy: 483/1000 (48.30%)
+Test task 4: Accuracy: 468/1000 (46.80%)
+Test task 5: Accuracy: 411/1000 (41.10%)
+Test task 6: Accuracy: 416/1000 (41.60%)
+tasks acc:[43.09999847 43.40000153 41.         48.29999924 46.79999924 41.09999847
+ 41.59999847  0.          0.          0.        ]
+tasks avg acc:43.614285060337615
+-----------------------------run 3 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 3.69 , APA 6.2190 , 6.4%
+==>>> it: 24, loss: ce 3.23 , APA 6.2178 , 80.0%
+==>>> it: 31, loss: ce 4.38 , APA 6.2172 , 100.0%
+Test task 0: Accuracy: 421/1000 (42.10%)
+Test task 1: Accuracy: 427/1000 (42.70%)
+Test task 2: Accuracy: 406/1000 (40.60%)
+Test task 3: Accuracy: 494/1000 (49.40%)
+Test task 4: Accuracy: 419/1000 (41.90%)
+Test task 5: Accuracy: 535/1000 (53.50%)
+Test task 6: Accuracy: 379/1000 (37.90%)
+Test task 7: Accuracy: 532/1000 (53.20%)
+tasks acc:[42.09999847 42.70000076 40.59999847 49.40000153 41.90000153 53.5
+ 37.90000153 53.20000076  0.          0.        ]
+tasks avg acc:45.16250038146973
+-----------------------------run 3 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 4.32 , APA 6.2630 , 6.4%
+==>>> it: 24, loss: ce 3.73 , APA 6.5171 , 80.0%
+==>>> it: 31, loss: ce 3.00 , APA 6.1120 , 100.0%
+Test task 0: Accuracy: 410/1000 (41.00%)
+Test task 1: Accuracy: 374/1000 (37.40%)
+Test task 2: Accuracy: 421/1000 (42.10%)
+Test task 3: Accuracy: 458/1000 (45.80%)
+Test task 4: Accuracy: 499/1000 (49.90%)
+Test task 5: Accuracy: 499/1000 (49.90%)
+Test task 6: Accuracy: 478/1000 (47.80%)
+Test task 7: Accuracy: 506/1000 (50.60%)
+Test task 8: Accuracy: 420/1000 (42.00%)
+tasks acc:[41.         37.40000153 42.09999847 45.79999924 49.90000153 49.90000153
+ 47.79999924 50.59999847 42.          0.        ]
+tasks avg acc:45.166666666666664
+-----------------------------run 3 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.10 , APA 6.0420 , 6.4%
+==>>> it: 24, loss: ce 5.00 , APA 6.1656 , 80.0%
+==>>> it: 31, loss: ce 3.53 , APA 5.4539 , 100.0%
+Test task 0: Accuracy: 389/1000 (38.90%)
+Test task 1: Accuracy: 445/1000 (44.50%)
+Test task 2: Accuracy: 472/1000 (47.20%)
+Test task 3: Accuracy: 469/1000 (46.90%)
+Test task 4: Accuracy: 439/1000 (43.90%)
+Test task 5: Accuracy: 469/1000 (46.90%)
+Test task 6: Accuracy: 533/1000 (53.30%)
+Test task 7: Accuracy: 440/1000 (44.00%)
+Test task 8: Accuracy: 482/1000 (48.20%)
+Test task 9: Accuracy: 464/1000 (46.40%)
+tasks acc:[38.90000153 44.5        47.20000076 46.90000153 43.90000153 46.90000153
+ 53.29999924 44.         48.20000076 46.40000153]
+tasks avg acc:46.0200008392334
+====================================================================================================
+3th run's Test result: Accuracy: 46.02%
+====================================================================================================
+====================================================================================================
+-----------------------------run 4 start--------------------------
+2024-05-24 16:15:04
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 4 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 69.85 , APA 5.8594 , 6.4%
+==>>> it: 24, loss: ce 9.08 , APA 5.8067 , 80.0%
+==>>> it: 31, loss: ce 4.47 , APA 5.7614 , 100.0%
+Test task 0: Accuracy: 501/1000 (50.10%)
+tasks acc:[50.09999847  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:50.099998474121094
+-----------------------------run 4 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 5.53 , APA 5.8853 , 6.4%
+==>>> it: 24, loss: ce 7.01 , APA 6.4004 , 80.0%
+==>>> it: 31, loss: ce 5.53 , APA 6.2405 , 100.0%
+Test task 0: Accuracy: 565/1000 (56.50%)
+Test task 1: Accuracy: 447/1000 (44.70%)
+tasks acc:[56.5        44.70000076  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:50.60000038146973
+-----------------------------run 4 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 7.94 , APA 6.2853 , 6.4%
+==>>> it: 24, loss: ce 6.56 , APA 6.4786 , 80.0%
+==>>> it: 31, loss: ce 3.65 , APA 6.2812 , 100.0%
+Test task 0: Accuracy: 435/1000 (43.50%)
+Test task 1: Accuracy: 548/1000 (54.80%)
+Test task 2: Accuracy: 360/1000 (36.00%)
+tasks acc:[43.5        54.79999924 36.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:44.766666412353516
+-----------------------------run 4 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 17.85 , APA 6.5221 , 6.4%
+==>>> it: 24, loss: ce 17.64 , APA 6.6572 , 80.0%
+==>>> it: 31, loss: ce 12.22 , APA 6.5516 , 100.0%
+Test task 0: Accuracy: 411/1000 (41.10%)
+Test task 1: Accuracy: 507/1000 (50.70%)
+Test task 2: Accuracy: 371/1000 (37.10%)
+Test task 3: Accuracy: 365/1000 (36.50%)
+tasks acc:[41.09999847 50.70000076 37.09999847 36.5         0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:41.34999942779541
+-----------------------------run 4 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 34.41 , APA 7.0773 , 6.4%
+==>>> it: 24, loss: ce 24.12 , APA 6.7234 , 80.0%
+==>>> it: 31, loss: ce 12.11 , APA 6.7367 , 100.0%
+Test task 0: Accuracy: 394/1000 (39.40%)
+Test task 1: Accuracy: 504/1000 (50.40%)
+Test task 2: Accuracy: 373/1000 (37.30%)
+Test task 3: Accuracy: 408/1000 (40.80%)
+Test task 4: Accuracy: 365/1000 (36.50%)
+tasks acc:[39.40000153 50.40000153 37.29999924 40.79999924 36.5         0.
+  0.          0.          0.          0.        ]
+tasks avg acc:40.880000305175784
+-----------------------------run 4 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 69.46 , APA nan , 6.4%
+==>>> it: 24, loss: ce 107.11 , APA 7.1585 , 80.0%
+==>>> it: 31, loss: ce 49.02 , APA 7.1962 , 100.0%
+Test task 0: Accuracy: 403/1000 (40.30%)
+Test task 1: Accuracy: 478/1000 (47.80%)
+Test task 2: Accuracy: 364/1000 (36.40%)
+Test task 3: Accuracy: 373/1000 (37.30%)
+Test task 4: Accuracy: 382/1000 (38.20%)
+Test task 5: Accuracy: 399/1000 (39.90%)
+tasks acc:[40.29999924 47.79999924 36.40000153 37.29999924 38.20000076 39.90000153
+  0.          0.          0.          0.        ]
+tasks avg acc:39.983333587646484
+-----------------------------run 4 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 52.90 , APA 7.0123 , 6.4%
+==>>> it: 24, loss: ce 32.41 , APA 6.9432 , 80.0%
+==>>> it: 31, loss: ce 17.77 , APA 7.1256 , 100.0%
+Test task 0: Accuracy: 405/1000 (40.50%)
+Test task 1: Accuracy: 494/1000 (49.40%)
+Test task 2: Accuracy: 386/1000 (38.60%)
+Test task 3: Accuracy: 392/1000 (39.20%)
+Test task 4: Accuracy: 377/1000 (37.70%)
+Test task 5: Accuracy: 403/1000 (40.30%)
+Test task 6: Accuracy: 373/1000 (37.30%)
+tasks acc:[40.5        49.40000153 38.59999847 39.20000076 37.70000076 40.29999924
+ 37.29999924  0.          0.          0.        ]
+tasks avg acc:40.42857142857143
+-----------------------------run 4 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 28.40 , APA 7.1926 , 6.4%
+==>>> it: 24, loss: ce 36.05 , APA 7.1378 , 80.0%
+==>>> it: 31, loss: ce 30.60 , APA 7.1361 , 100.0%
+Test task 0: Accuracy: 360/1000 (36.00%)
+Test task 1: Accuracy: 467/1000 (46.70%)
+Test task 2: Accuracy: 394/1000 (39.40%)
+Test task 3: Accuracy: 387/1000 (38.70%)
+Test task 4: Accuracy: 407/1000 (40.70%)
+Test task 5: Accuracy: 406/1000 (40.60%)
+Test task 6: Accuracy: 405/1000 (40.50%)
+Test task 7: Accuracy: 362/1000 (36.20%)
+tasks acc:[36.         46.70000076 39.40000153 38.70000076 40.70000076 40.59999847
+ 40.5        36.20000076  0.          0.        ]
+tasks avg acc:39.85000038146973
+-----------------------------run 4 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 63.62 , APA 7.2388 , 6.4%
+==>>> it: 24, loss: ce 45.55 , APA 7.0851 , 80.0%
+==>>> it: 31, loss: ce 46.18 , APA 7.2258 , 100.0%
+Test task 0: Accuracy: 414/1000 (41.40%)
+Test task 1: Accuracy: 509/1000 (50.90%)
+Test task 2: Accuracy: 392/1000 (39.20%)
+Test task 3: Accuracy: 395/1000 (39.50%)
+Test task 4: Accuracy: 412/1000 (41.20%)
+Test task 5: Accuracy: 392/1000 (39.20%)
+Test task 6: Accuracy: 378/1000 (37.80%)
+Test task 7: Accuracy: 386/1000 (38.60%)
+Test task 8: Accuracy: 370/1000 (37.00%)
+tasks acc:[41.40000153 50.90000153 39.20000076 39.5        41.20000076 39.20000076
+ 37.79999924 38.59999847 37.          0.        ]
+tasks avg acc:40.533333672417534
+-----------------------------run 4 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 62.20 , APA 7.1963 , 6.4%
+==>>> it: 24, loss: ce 14.85 , APA nan , 80.0%
+==>>> it: 31, loss: ce 26.80 , APA 7.0253 , 100.0%
+Test task 0: Accuracy: 432/1000 (43.20%)
+Test task 1: Accuracy: 471/1000 (47.10%)
+Test task 2: Accuracy: 370/1000 (37.00%)
+Test task 3: Accuracy: 376/1000 (37.60%)
+Test task 4: Accuracy: 404/1000 (40.40%)
+Test task 5: Accuracy: 395/1000 (39.50%)
+Test task 6: Accuracy: 376/1000 (37.60%)
+Test task 7: Accuracy: 391/1000 (39.10%)
+Test task 8: Accuracy: 362/1000 (36.20%)
+Test task 9: Accuracy: 368/1000 (36.80%)
+tasks acc:[43.20000076 47.09999847 37.         37.59999847 40.40000153 39.5
+ 37.59999847 39.09999847 36.20000076 36.79999924]
+tasks avg acc:39.44999961853027
+====================================================================================================
+4th run's Test result: Accuracy: 39.45%
+====================================================================================================
+====================================================================================================
+-----------------------------run 5 start--------------------------
+2024-05-24 16:19:53
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 5 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 75.22 , APA 5.8611 , 6.4%
+==>>> it: 24, loss: ce 18.32 , APA 5.8173 , 80.0%
+==>>> it: 31, loss: ce 9.23 , APA 5.7856 , 100.0%
+Test task 0: Accuracy: 318/1000 (31.80%)
+tasks acc:[31.79999924  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:31.799999237060547
+-----------------------------run 5 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 4.53 , APA 6.0150 , 6.4%
+==>>> it: 24, loss: ce 6.59 , APA 6.2686 , 80.0%
+==>>> it: 31, loss: ce 2.89 , APA 6.3220 , 100.0%
+Test task 0: Accuracy: 514/1000 (51.40%)
+Test task 1: Accuracy: 498/1000 (49.80%)
+tasks acc:[51.40000153 49.79999924  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:50.60000038146973
+-----------------------------run 5 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 9.11 , APA 6.3956 , 6.4%
+==>>> it: 24, loss: ce 2.58 , APA 6.2763 , 80.0%
+==>>> it: 31, loss: ce 5.16 , APA 6.3330 , 100.0%
+Test task 0: Accuracy: 502/1000 (50.20%)
+Test task 1: Accuracy: 447/1000 (44.70%)
+Test task 2: Accuracy: 513/1000 (51.30%)
+tasks acc:[50.20000076 44.70000076 51.29999924  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.733333587646484
+-----------------------------run 5 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 3.54 , APA 6.5299 , 6.4%
+==>>> it: 24, loss: ce 6.61 , APA 6.5299 , 80.0%
+==>>> it: 31, loss: ce 6.68 , APA 5.9732 , 100.0%
+Test task 0: Accuracy: 448/1000 (44.80%)
+Test task 1: Accuracy: 415/1000 (41.50%)
+Test task 2: Accuracy: 398/1000 (39.80%)
+Test task 3: Accuracy: 406/1000 (40.60%)
+tasks acc:[44.79999924 41.5        39.79999924 40.59999847  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:41.67499923706055
+-----------------------------run 5 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 3.26 , APA 6.6886 , 6.4%
+==>>> it: 24, loss: ce 7.26 , APA 6.5996 , 80.0%
+==>>> it: 31, loss: ce 3.90 , APA 6.6845 , 100.0%
+Test task 0: Accuracy: 432/1000 (43.20%)
+Test task 1: Accuracy: 474/1000 (47.40%)
+Test task 2: Accuracy: 401/1000 (40.10%)
+Test task 3: Accuracy: 439/1000 (43.90%)
+Test task 4: Accuracy: 382/1000 (38.20%)
+tasks acc:[43.20000076 47.40000153 40.09999847 43.90000153 38.20000076  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:42.560000610351565
+-----------------------------run 5 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 5.64 , APA 6.6174 , 6.4%
+==>>> it: 24, loss: ce 5.36 , APA 6.4981 , 80.0%
+==>>> it: 31, loss: ce 6.35 , APA 6.5943 , 100.0%
+Test task 0: Accuracy: 386/1000 (38.60%)
+Test task 1: Accuracy: 415/1000 (41.50%)
+Test task 2: Accuracy: 458/1000 (45.80%)
+Test task 3: Accuracy: 466/1000 (46.60%)
+Test task 4: Accuracy: 450/1000 (45.00%)
+Test task 5: Accuracy: 461/1000 (46.10%)
+tasks acc:[38.59999847 41.5        45.79999924 46.59999847 45.         46.09999847
+  0.          0.          0.          0.        ]
+tasks avg acc:43.933332443237305
+-----------------------------run 5 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 4.03 , APA 6.3805 , 6.4%
+==>>> it: 24, loss: ce 3.79 , APA 6.4926 , 80.0%
+==>>> it: 31, loss: ce 2.69 , APA 6.0671 , 100.0%
+Test task 0: Accuracy: 490/1000 (49.00%)
+Test task 1: Accuracy: 456/1000 (45.60%)
+Test task 2: Accuracy: 441/1000 (44.10%)
+Test task 3: Accuracy: 453/1000 (45.30%)
+Test task 4: Accuracy: 433/1000 (43.30%)
+Test task 5: Accuracy: 418/1000 (41.80%)
+Test task 6: Accuracy: 531/1000 (53.10%)
+tasks acc:[49.         45.59999847 44.09999847 45.29999924 43.29999924 41.79999924
+ 53.09999847  0.          0.          0.        ]
+tasks avg acc:46.02857044764927
+-----------------------------run 5 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 5.58 , APA 5.8771 , 6.4%
+==>>> it: 24, loss: ce 4.49 , APA 6.5125 , 80.0%
+==>>> it: 31, loss: ce 4.03 , APA 6.0435 , 100.0%
+Test task 0: Accuracy: 404/1000 (40.40%)
+Test task 1: Accuracy: 445/1000 (44.50%)
+Test task 2: Accuracy: 531/1000 (53.10%)
+Test task 3: Accuracy: 499/1000 (49.90%)
+Test task 4: Accuracy: 444/1000 (44.40%)
+Test task 5: Accuracy: 528/1000 (52.80%)
+Test task 6: Accuracy: 461/1000 (46.10%)
+Test task 7: Accuracy: 379/1000 (37.90%)
+tasks acc:[40.40000153 44.5        53.09999847 49.90000153 44.40000153 52.79999924
+ 46.09999847 37.90000153  0.          0.        ]
+tasks avg acc:46.137500286102295
+-----------------------------run 5 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 3.56 , APA 6.6125 , 6.4%
+==>>> it: 24, loss: ce 3.68 , APA 6.0025 , 80.0%
+==>>> it: 31, loss: ce 4.42 , APA 6.0190 , 100.0%
+Test task 0: Accuracy: 374/1000 (37.40%)
+Test task 1: Accuracy: 403/1000 (40.30%)
+Test task 2: Accuracy: 483/1000 (48.30%)
+Test task 3: Accuracy: 420/1000 (42.00%)
+Test task 4: Accuracy: 472/1000 (47.20%)
+Test task 5: Accuracy: 451/1000 (45.10%)
+Test task 6: Accuracy: 501/1000 (50.10%)
+Test task 7: Accuracy: 465/1000 (46.50%)
+Test task 8: Accuracy: 471/1000 (47.10%)
+tasks acc:[37.40000153 40.29999924 48.29999924 42.         47.20000076 45.09999847
+ 50.09999847 46.5        47.09999847  0.        ]
+tasks avg acc:44.88888846503364
+-----------------------------run 5 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.01 , APA 6.2007 , 6.4%
+==>>> it: 24, loss: ce 3.20 , APA 5.9354 , 80.0%
+==>>> it: 31, loss: ce 2.75 , APA 5.9593 , 100.0%
+Test task 0: Accuracy: 455/1000 (45.50%)
+Test task 1: Accuracy: 378/1000 (37.80%)
+Test task 2: Accuracy: 450/1000 (45.00%)
+Test task 3: Accuracy: 417/1000 (41.70%)
+Test task 4: Accuracy: 452/1000 (45.20%)
+Test task 5: Accuracy: 450/1000 (45.00%)
+Test task 6: Accuracy: 501/1000 (50.10%)
+Test task 7: Accuracy: 541/1000 (54.10%)
+Test task 8: Accuracy: 508/1000 (50.80%)
+Test task 9: Accuracy: 433/1000 (43.30%)
+tasks acc:[45.5        37.79999924 45.         41.70000076 45.20000076 45.
+ 50.09999847 54.09999847 50.79999924 43.29999924]
+tasks avg acc:45.849999618530276
+====================================================================================================
+5th run's Test result: Accuracy: 45.85%
+====================================================================================================
+====================================================================================================
+-----------------------------run 6 start--------------------------
+2024-05-24 16:24:42
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 6 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 76.94 , APA 5.8600 , 6.4%
+==>>> it: 24, loss: ce 5.91 , APA 5.8539 , 80.0%
+==>>> it: 31, loss: ce 26.21 , APA 5.7029 , 100.0%
+Test task 0: Accuracy: 573/1000 (57.30%)
+tasks acc:[57.29999924  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:57.29999923706055
+-----------------------------run 6 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 30.00 , APA 5.9412 , 6.4%
+==>>> it: 24, loss: ce 14.05 , APA 6.4660 , 80.0%
+==>>> it: 31, loss: ce 5.83 , APA 6.3434 , 100.0%
+Test task 0: Accuracy: 463/1000 (46.30%)
+Test task 1: Accuracy: 457/1000 (45.70%)
+tasks acc:[46.29999924 45.70000076  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.0
+-----------------------------run 6 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 9.65 , APA 6.4947 , 6.4%
+==>>> it: 24, loss: ce 8.07 , APA 6.4840 , 80.0%
+==>>> it: 31, loss: ce 3.05 , APA 6.3790 , 100.0%
+Test task 0: Accuracy: 417/1000 (41.70%)
+Test task 1: Accuracy: 450/1000 (45.00%)
+Test task 2: Accuracy: 425/1000 (42.50%)
+tasks acc:[41.70000076 45.         42.5         0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:43.06666692097982
+-----------------------------run 6 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 3.10 , APA 6.5079 , 6.4%
+==>>> it: 24, loss: ce 4.67 , APA 6.5863 , 80.0%
+==>>> it: 31, loss: ce 6.34 , APA 6.6169 , 100.0%
+Test task 0: Accuracy: 397/1000 (39.70%)
+Test task 1: Accuracy: 481/1000 (48.10%)
+Test task 2: Accuracy: 461/1000 (46.10%)
+Test task 3: Accuracy: 511/1000 (51.10%)
+tasks acc:[39.70000076 48.09999847 46.09999847 51.09999847  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.249999046325684
+-----------------------------run 6 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 3.59 , APA 6.6871 , 6.4%
+==>>> it: 24, loss: ce 7.20 , APA 6.4248 , 80.0%
+==>>> it: 31, loss: ce 4.90 , APA 6.6428 , 100.0%
+Test task 0: Accuracy: 464/1000 (46.40%)
+Test task 1: Accuracy: 439/1000 (43.90%)
+Test task 2: Accuracy: 450/1000 (45.00%)
+Test task 3: Accuracy: 442/1000 (44.20%)
+Test task 4: Accuracy: 390/1000 (39.00%)
+tasks acc:[46.40000153 43.90000153 45.         44.20000076 39.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:43.70000076293945
+-----------------------------run 6 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 8.27 , APA 6.7250 , 6.4%
+==>>> it: 24, loss: ce 6.92 , APA 6.7072 , 80.0%
+==>>> it: 31, loss: ce 12.84 , APA 6.7287 , 100.0%
+Test task 0: Accuracy: 427/1000 (42.70%)
+Test task 1: Accuracy: 429/1000 (42.90%)
+Test task 2: Accuracy: 446/1000 (44.60%)
+Test task 3: Accuracy: 455/1000 (45.50%)
+Test task 4: Accuracy: 532/1000 (53.20%)
+Test task 5: Accuracy: 426/1000 (42.60%)
+tasks acc:[42.70000076 42.90000153 44.59999847 45.5        53.20000076 42.59999847
+  0.          0.          0.          0.        ]
+tasks avg acc:45.25
+-----------------------------run 6 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 7.98 , APA 6.6104 , 6.4%
+==>>> it: 24, loss: ce 7.03 , APA 6.6184 , 80.0%
+==>>> it: 31, loss: ce 4.14 , APA 6.6683 , 100.0%
+Test task 0: Accuracy: 456/1000 (45.60%)
+Test task 1: Accuracy: 409/1000 (40.90%)
+Test task 2: Accuracy: 450/1000 (45.00%)
+Test task 3: Accuracy: 392/1000 (39.20%)
+Test task 4: Accuracy: 410/1000 (41.00%)
+Test task 5: Accuracy: 404/1000 (40.40%)
+Test task 6: Accuracy: 434/1000 (43.40%)
+tasks acc:[45.59999847 40.90000153 45.         39.20000076 41.         40.40000153
+ 43.40000153  0.          0.          0.        ]
+tasks avg acc:42.21428625924246
+-----------------------------run 6 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 3.56 , APA 6.5977 , 6.4%
+==>>> it: 24, loss: ce 3.36 , APA 6.9556 , 80.0%
+==>>> it: 31, loss: ce 4.71 , APA 6.7109 , 100.0%
+Test task 0: Accuracy: 432/1000 (43.20%)
+Test task 1: Accuracy: 442/1000 (44.20%)
+Test task 2: Accuracy: 427/1000 (42.70%)
+Test task 3: Accuracy: 428/1000 (42.80%)
+Test task 4: Accuracy: 404/1000 (40.40%)
+Test task 5: Accuracy: 457/1000 (45.70%)
+Test task 6: Accuracy: 475/1000 (47.50%)
+Test task 7: Accuracy: 449/1000 (44.90%)
+tasks acc:[43.20000076 44.20000076 42.70000076 42.79999924 40.40000153 45.70000076
+ 47.5        44.90000153  0.          0.        ]
+tasks avg acc:43.92500066757202
+-----------------------------run 6 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 7.14 , APA 6.4615 , 6.4%
+==>>> it: 24, loss: ce 3.60 , APA 6.3348 , 80.0%
+==>>> it: 31, loss: ce 4.45 , APA 5.7583 , 100.0%
+Test task 0: Accuracy: 463/1000 (46.30%)
+Test task 1: Accuracy: 395/1000 (39.50%)
+Test task 2: Accuracy: 547/1000 (54.70%)
+Test task 3: Accuracy: 411/1000 (41.10%)
+Test task 4: Accuracy: 452/1000 (45.20%)
+Test task 5: Accuracy: 440/1000 (44.00%)
+Test task 6: Accuracy: 413/1000 (41.30%)
+Test task 7: Accuracy: 405/1000 (40.50%)
+Test task 8: Accuracy: 376/1000 (37.60%)
+tasks acc:[46.29999924 39.5        54.70000076 41.09999847 45.20000076 44.
+ 41.29999924 40.5        37.59999847  0.        ]
+tasks avg acc:43.35555521647135
+-----------------------------run 6 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.81 , APA 6.7938 , 6.4%
+==>>> it: 24, loss: ce 2.77 , APA 6.3531 , 80.0%
+==>>> it: 31, loss: ce 3.42 , APA 6.1109 , 100.0%
+Test task 0: Accuracy: 380/1000 (38.00%)
+Test task 1: Accuracy: 421/1000 (42.10%)
+Test task 2: Accuracy: 434/1000 (43.40%)
+Test task 3: Accuracy: 381/1000 (38.10%)
+Test task 4: Accuracy: 377/1000 (37.70%)
+Test task 5: Accuracy: 428/1000 (42.80%)
+Test task 6: Accuracy: 520/1000 (52.00%)
+Test task 7: Accuracy: 486/1000 (48.60%)
+Test task 8: Accuracy: 538/1000 (53.80%)
+Test task 9: Accuracy: 413/1000 (41.30%)
+tasks acc:[38.         42.09999847 43.40000153 38.09999847 37.70000076 42.79999924
+ 52.         48.59999847 53.79999924 41.29999924]
+tasks avg acc:43.779999542236325
+====================================================================================================
+6th run's Test result: Accuracy: 43.78%
+====================================================================================================
+====================================================================================================
+-----------------------------run 7 start--------------------------
+2024-05-24 16:29:28
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 7 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 43.58 , APA 5.8631 , 6.4%
+==>>> it: 24, loss: ce 13.78 , APA 5.8294 , 80.0%
+==>>> it: 31, loss: ce 4.92 , APA 5.6678 , 100.0%
+Test task 0: Accuracy: 623/1000 (62.30%)
+tasks acc:[62.29999924  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:62.29999923706055
+-----------------------------run 7 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 30.89 , APA 5.8418 , 6.4%
+==>>> it: 24, loss: ce 8.15 , APA 6.2763 , 80.0%
+==>>> it: 31, loss: ce 4.50 , APA 6.1918 , 100.0%
+Test task 0: Accuracy: 506/1000 (50.60%)
+Test task 1: Accuracy: 503/1000 (50.30%)
+tasks acc:[50.59999847 50.29999924  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:50.44999885559082
+-----------------------------run 7 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 3.04 , APA 6.3594 , 6.4%
+==>>> it: 24, loss: ce 19.46 , APA 6.2032 , 80.0%
+==>>> it: 31, loss: ce 9.56 , APA 6.3266 , 100.0%
+Test task 0: Accuracy: 496/1000 (49.60%)
+Test task 1: Accuracy: 499/1000 (49.90%)
+Test task 2: Accuracy: 495/1000 (49.50%)
+tasks acc:[49.59999847 49.90000153 49.5         0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:49.666666666666664
+-----------------------------run 7 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 7.27 , APA 6.5666 , 6.4%
+==>>> it: 24, loss: ce 6.63 , APA 6.5029 , 80.0%
+==>>> it: 31, loss: ce 4.97 , APA 6.6030 , 100.0%
+Test task 0: Accuracy: 407/1000 (40.70%)
+Test task 1: Accuracy: 413/1000 (41.30%)
+Test task 2: Accuracy: 553/1000 (55.30%)
+Test task 3: Accuracy: 510/1000 (51.00%)
+tasks acc:[40.70000076 41.29999924 55.29999924 51.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:47.07499980926514
+-----------------------------run 7 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 6.43 , APA 6.4408 , 6.4%
+==>>> it: 24, loss: ce 3.96 , APA 6.4262 , 80.0%
+==>>> it: 31, loss: ce 4.46 , APA 6.7052 , 100.0%
+Test task 0: Accuracy: 470/1000 (47.00%)
+Test task 1: Accuracy: 392/1000 (39.20%)
+Test task 2: Accuracy: 590/1000 (59.00%)
+Test task 3: Accuracy: 567/1000 (56.70%)
+Test task 4: Accuracy: 396/1000 (39.60%)
+tasks acc:[47.         39.20000076 59.         56.70000076 39.59999847  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.3
+-----------------------------run 7 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 7.20 , APA 6.4328 , 6.4%
+==>>> it: 24, loss: ce 3.10 , APA 6.2503 , 80.0%
+==>>> it: 31, loss: ce 5.11 , APA 6.1767 , 100.0%
+Test task 0: Accuracy: 493/1000 (49.30%)
+Test task 1: Accuracy: 432/1000 (43.20%)
+Test task 2: Accuracy: 519/1000 (51.90%)
+Test task 3: Accuracy: 441/1000 (44.10%)
+Test task 4: Accuracy: 394/1000 (39.40%)
+Test task 5: Accuracy: 499/1000 (49.90%)
+tasks acc:[49.29999924 43.20000076 51.90000153 44.09999847 39.40000153 49.90000153
+  0.          0.          0.          0.        ]
+tasks avg acc:46.300000508626304
+-----------------------------run 7 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 2.41 , APA 6.4184 , 6.4%
+==>>> it: 24, loss: ce 2.38 , APA 6.1559 , 80.0%
+==>>> it: 31, loss: ce 4.13 , APA 5.6696 , 100.0%
+Test task 0: Accuracy: 388/1000 (38.80%)
+Test task 1: Accuracy: 375/1000 (37.50%)
+Test task 2: Accuracy: 499/1000 (49.90%)
+Test task 3: Accuracy: 478/1000 (47.80%)
+Test task 4: Accuracy: 396/1000 (39.60%)
+Test task 5: Accuracy: 438/1000 (43.80%)
+Test task 6: Accuracy: 402/1000 (40.20%)
+tasks acc:[38.79999924 37.5        49.90000153 47.79999924 39.59999847 43.79999924
+ 40.20000076  0.          0.          0.        ]
+tasks avg acc:42.51428549630301
+-----------------------------run 7 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 30.90 , APA 7.0365 , 6.4%
+==>>> it: 24, loss: ce 92.09 , APA 7.4303 , 80.0%
+==>>> it: 31, loss: ce 102.15 , APA nan , 100.0%
+Test task 0: Accuracy: 363/1000 (36.30%)
+Test task 1: Accuracy: 392/1000 (39.20%)
+Test task 2: Accuracy: 366/1000 (36.60%)
+Test task 3: Accuracy: 374/1000 (37.40%)
+Test task 4: Accuracy: 401/1000 (40.10%)
+Test task 5: Accuracy: 362/1000 (36.20%)
+Test task 6: Accuracy: 361/1000 (36.10%)
+Test task 7: Accuracy: 480/1000 (48.00%)
+tasks acc:[36.29999924 39.20000076 36.59999847 37.40000153 40.09999847 36.20000076
+ 36.09999847 48.          0.          0.        ]
+tasks avg acc:38.737499713897705
+-----------------------------run 7 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 136.61 , APA 7.4085 , 6.4%
+==>>> it: 24, loss: ce 112.02 , APA nan , 80.0%
+==>>> it: 31, loss: ce 69.75 , APA 7.4946 , 100.0%
+Test task 0: Accuracy: 384/1000 (38.40%)
+Test task 1: Accuracy: 403/1000 (40.30%)
+Test task 2: Accuracy: 395/1000 (39.50%)
+Test task 3: Accuracy: 393/1000 (39.30%)
+Test task 4: Accuracy: 367/1000 (36.70%)
+Test task 5: Accuracy: 409/1000 (40.90%)
+Test task 6: Accuracy: 380/1000 (38.00%)
+Test task 7: Accuracy: 490/1000 (49.00%)
+Test task 8: Accuracy: 379/1000 (37.90%)
+tasks acc:[38.40000153 40.29999924 39.5        39.29999924 36.70000076 40.90000153
+ 38.         49.         37.90000153  0.        ]
+tasks avg acc:40.000000423855255
+-----------------------------run 7 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 73.14 , APA 7.5162 , 6.4%
+==>>> it: 24, loss: ce 70.26 , APA 7.4040 , 80.0%
+==>>> it: 31, loss: ce 99.67 , APA 7.5750 , 100.0%
+Test task 0: Accuracy: 362/1000 (36.20%)
+Test task 1: Accuracy: 383/1000 (38.30%)
+Test task 2: Accuracy: 367/1000 (36.70%)
+Test task 3: Accuracy: 361/1000 (36.10%)
+Test task 4: Accuracy: 390/1000 (39.00%)
+Test task 5: Accuracy: 391/1000 (39.10%)
+Test task 6: Accuracy: 365/1000 (36.50%)
+Test task 7: Accuracy: 487/1000 (48.70%)
+Test task 8: Accuracy: 377/1000 (37.70%)
+Test task 9: Accuracy: 379/1000 (37.90%)
+tasks acc:[36.20000076 38.29999924 36.70000076 36.09999847 39.         39.09999847
+ 36.5        48.70000076 37.70000076 37.90000153]
+tasks avg acc:38.62000007629395
+====================================================================================================
+7th run's Test result: Accuracy: 38.62%
+====================================================================================================
+====================================================================================================
+-----------------------------run 8 start--------------------------
+2024-05-24 16:34:19
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 8 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 62.71 , APA 5.8249 , 6.4%
+==>>> it: 24, loss: ce 10.18 , APA 5.8405 , 80.0%
+==>>> it: 31, loss: ce 17.23 , APA 5.7343 , 100.0%
+Test task 0: Accuracy: 576/1000 (57.60%)
+tasks acc:[57.59999847  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:57.599998474121094
+-----------------------------run 8 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 5.56 , APA 6.0725 , 6.4%
+==>>> it: 24, loss: ce 4.59 , APA 6.4398 , 80.0%
+==>>> it: 31, loss: ce 4.93 , APA 6.2196 , 100.0%
+Test task 0: Accuracy: 429/1000 (42.90%)
+Test task 1: Accuracy: 562/1000 (56.20%)
+tasks acc:[42.90000153 56.20000076  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:49.55000114440918
+-----------------------------run 8 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 10.33 , APA 6.4448 , 6.4%
+==>>> it: 24, loss: ce 2.92 , APA 6.6881 , 80.0%
+==>>> it: 31, loss: ce 15.22 , APA 6.5904 , 100.0%
+Test task 0: Accuracy: 547/1000 (54.70%)
+Test task 1: Accuracy: 387/1000 (38.70%)
+Test task 2: Accuracy: 424/1000 (42.40%)
+tasks acc:[54.70000076 38.70000076 42.40000153  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:45.26666768391927
+-----------------------------run 8 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 5.98 , APA 6.7740 , 6.4%
+==>>> it: 24, loss: ce 4.34 , APA 7.0449 , 80.0%
+==>>> it: 31, loss: ce 4.88 , APA 7.2114 , 100.0%
+Test task 0: Accuracy: 394/1000 (39.40%)
+Test task 1: Accuracy: 424/1000 (42.40%)
+Test task 2: Accuracy: 394/1000 (39.40%)
+Test task 3: Accuracy: 455/1000 (45.50%)
+tasks acc:[39.40000153 42.40000153 39.40000153 45.5         0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:41.67500114440918
+-----------------------------run 8 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 6.14 , APA 7.0783 , 6.4%
+==>>> it: 24, loss: ce 7.02 , APA 7.2087 , 80.0%
+==>>> it: 31, loss: ce 7.56 , APA 7.1754 , 100.0%
+Test task 0: Accuracy: 461/1000 (46.10%)
+Test task 1: Accuracy: 366/1000 (36.60%)
+Test task 2: Accuracy: 405/1000 (40.50%)
+Test task 3: Accuracy: 476/1000 (47.60%)
+Test task 4: Accuracy: 410/1000 (41.00%)
+tasks acc:[46.09999847 36.59999847 40.5        47.59999847 41.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:42.359999084472655
+-----------------------------run 8 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 7.85 , APA 7.1083 , 6.4%
+==>>> it: 24, loss: ce 9.99 , APA 7.2196 , 80.0%
+==>>> it: 31, loss: ce 8.95 , APA 7.2878 , 100.0%
+Test task 0: Accuracy: 403/1000 (40.30%)
+Test task 1: Accuracy: 397/1000 (39.70%)
+Test task 2: Accuracy: 441/1000 (44.10%)
+Test task 3: Accuracy: 463/1000 (46.30%)
+Test task 4: Accuracy: 400/1000 (40.00%)
+Test task 5: Accuracy: 375/1000 (37.50%)
+tasks acc:[40.29999924 39.70000076 44.09999847 46.29999924 40.         37.5
+  0.          0.          0.          0.        ]
+tasks avg acc:41.31666628519694
+-----------------------------run 8 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 31.55 , APA 7.3022 , 6.4%
+==>>> it: 24, loss: ce 14.06 , APA 7.3788 , 80.0%
+==>>> it: 31, loss: ce 20.34 , APA 7.3826 , 100.0%
+Test task 0: Accuracy: 399/1000 (39.90%)
+Test task 1: Accuracy: 382/1000 (38.20%)
+Test task 2: Accuracy: 497/1000 (49.70%)
+Test task 3: Accuracy: 382/1000 (38.20%)
+Test task 4: Accuracy: 399/1000 (39.90%)
+Test task 5: Accuracy: 371/1000 (37.10%)
+Test task 6: Accuracy: 362/1000 (36.20%)
+tasks acc:[39.90000153 38.20000076 49.70000076 38.20000076 39.90000153 37.09999847
+ 36.20000076  0.          0.          0.        ]
+tasks avg acc:39.885714939662385
+-----------------------------run 8 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 18.23 , APA 7.3619 , 6.4%
+==>>> it: 24, loss: ce 18.96 , APA 7.4312 , 80.0%
+==>>> it: 31, loss: ce 16.17 , APA 7.2334 , 100.0%
+Test task 0: Accuracy: 454/1000 (45.40%)
+Test task 1: Accuracy: 384/1000 (38.40%)
+Test task 2: Accuracy: 405/1000 (40.50%)
+Test task 3: Accuracy: 407/1000 (40.70%)
+Test task 4: Accuracy: 394/1000 (39.40%)
+Test task 5: Accuracy: 390/1000 (39.00%)
+Test task 6: Accuracy: 469/1000 (46.90%)
+Test task 7: Accuracy: 364/1000 (36.40%)
+tasks acc:[45.40000153 38.40000153 40.5        40.70000076 39.40000153 39.
+ 46.90000153 36.40000153  0.          0.        ]
+tasks avg acc:40.83750104904175
+-----------------------------run 8 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 27.46 , APA 7.3782 , 6.4%
+==>>> it: 24, loss: ce 20.27 , APA 7.4085 , 80.0%
+==>>> it: 31, loss: ce 21.67 , APA 7.4511 , 100.0%
+Test task 0: Accuracy: 400/1000 (40.00%)
+Test task 1: Accuracy: 404/1000 (40.40%)
+Test task 2: Accuracy: 416/1000 (41.60%)
+Test task 3: Accuracy: 394/1000 (39.40%)
+Test task 4: Accuracy: 381/1000 (38.10%)
+Test task 5: Accuracy: 418/1000 (41.80%)
+Test task 6: Accuracy: 429/1000 (42.90%)
+Test task 7: Accuracy: 407/1000 (40.70%)
+Test task 8: Accuracy: 388/1000 (38.80%)
+tasks acc:[40.         40.40000153 41.59999847 39.40000153 38.09999847 41.79999924
+ 42.90000153 40.70000076 38.79999924  0.        ]
+tasks avg acc:40.411111195882164
+-----------------------------run 8 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 30.85 , APA 7.5335 , 6.4%
+==>>> it: 24, loss: ce 15.67 , APA 7.5291 , 80.0%
+==>>> it: 31, loss: ce 20.03 , APA 7.4917 , 100.0%
+Test task 0: Accuracy: 476/1000 (47.60%)
+Test task 1: Accuracy: 408/1000 (40.80%)
+Test task 2: Accuracy: 382/1000 (38.20%)
+Test task 3: Accuracy: 364/1000 (36.40%)
+Test task 4: Accuracy: 398/1000 (39.80%)
+Test task 5: Accuracy: 396/1000 (39.60%)
+Test task 6: Accuracy: 365/1000 (36.50%)
+Test task 7: Accuracy: 383/1000 (38.30%)
+Test task 8: Accuracy: 394/1000 (39.40%)
+Test task 9: Accuracy: 366/1000 (36.60%)
+tasks acc:[47.59999847 40.79999924 38.20000076 36.40000153 39.79999924 39.59999847
+ 36.5        38.29999924 39.40000153 36.59999847]
+tasks avg acc:39.31999969482422
+====================================================================================================
+8th run's Test result: Accuracy: 39.32%
+====================================================================================================
+====================================================================================================
+-----------------------------run 9 start--------------------------
+2024-05-24 16:39:08
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 9 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 72.21 , APA 5.8463 , 6.4%
+==>>> it: 24, loss: ce 20.68 , APA 5.8746 , 80.0%
+==>>> it: 31, loss: ce 11.38 , APA 5.7663 , 100.0%
+Test task 0: Accuracy: 606/1000 (60.60%)
+tasks acc:[60.59999847  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:60.599998474121094
+-----------------------------run 9 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 17.28 , APA 5.9138 , 6.4%
+==>>> it: 24, loss: ce 6.42 , APA 6.4342 , 80.0%
+==>>> it: 31, loss: ce 8.13 , APA 6.3065 , 100.0%
+Test task 0: Accuracy: 655/1000 (65.50%)
+Test task 1: Accuracy: 438/1000 (43.80%)
+tasks acc:[65.5        43.79999924  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:54.64999961853027
+-----------------------------run 9 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 8.90 , APA 6.4357 , 6.4%
+==>>> it: 24, loss: ce 3.26 , APA 6.5419 , 80.0%
+==>>> it: 31, loss: ce 4.09 , APA 6.2744 , 100.0%
+Test task 0: Accuracy: 512/1000 (51.20%)
+Test task 1: Accuracy: 464/1000 (46.40%)
+Test task 2: Accuracy: 409/1000 (40.90%)
+tasks acc:[51.20000076 46.40000153 40.90000153  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.16666793823242
+-----------------------------run 9 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 4.49 , APA 6.3940 , 6.4%
+==>>> it: 24, loss: ce 4.35 , APA 6.2545 , 80.0%
+==>>> it: 31, loss: ce 6.27 , APA 6.2032 , 100.0%
+Test task 0: Accuracy: 602/1000 (60.20%)
+Test task 1: Accuracy: 416/1000 (41.60%)
+Test task 2: Accuracy: 423/1000 (42.30%)
+Test task 3: Accuracy: 416/1000 (41.60%)
+tasks acc:[60.20000076 41.59999847 42.29999924 41.59999847  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:46.42499923706055
+-----------------------------run 9 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 3.07 , APA 6.5614 , 6.4%
+==>>> it: 24, loss: ce 3.36 , APA 6.5341 , 80.0%
+==>>> it: 31, loss: ce 7.66 , APA 6.0272 , 100.0%
+Test task 0: Accuracy: 495/1000 (49.50%)
+Test task 1: Accuracy: 463/1000 (46.30%)
+Test task 2: Accuracy: 504/1000 (50.40%)
+Test task 3: Accuracy: 407/1000 (40.70%)
+Test task 4: Accuracy: 404/1000 (40.40%)
+tasks acc:[49.5        46.29999924 50.40000153 40.70000076 40.40000153  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:45.460000610351564
+-----------------------------run 9 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 7.06 , APA 6.5920 , 6.4%
+==>>> it: 24, loss: ce 3.76 , APA 6.3542 , 80.0%
+==>>> it: 31, loss: ce 4.01 , APA 5.9229 , 100.0%
+Test task 0: Accuracy: 467/1000 (46.70%)
+Test task 1: Accuracy: 442/1000 (44.20%)
+Test task 2: Accuracy: 370/1000 (37.00%)
+Test task 3: Accuracy: 493/1000 (49.30%)
+Test task 4: Accuracy: 394/1000 (39.40%)
+Test task 5: Accuracy: 452/1000 (45.20%)
+tasks acc:[46.70000076 44.20000076 37.         49.29999924 39.40000153 45.20000076
+  0.          0.          0.          0.        ]
+tasks avg acc:43.63333384195963
+-----------------------------run 9 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 3.91 , APA 6.5218 , 6.4%
+==>>> it: 24, loss: ce 3.46 , APA 6.2473 , 80.0%
+==>>> it: 31, loss: ce 4.09 , APA 5.4140 , 100.0%
+Test task 0: Accuracy: 440/1000 (44.00%)
+Test task 1: Accuracy: 452/1000 (45.20%)
+Test task 2: Accuracy: 412/1000 (41.20%)
+Test task 3: Accuracy: 375/1000 (37.50%)
+Test task 4: Accuracy: 436/1000 (43.60%)
+Test task 5: Accuracy: 571/1000 (57.10%)
+Test task 6: Accuracy: 462/1000 (46.20%)
+tasks acc:[44.         45.20000076 41.20000076 37.5        43.59999847 57.09999847
+ 46.20000076  0.          0.          0.        ]
+tasks avg acc:44.971428462437224
+-----------------------------run 9 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 3.48 , APA 6.5742 , 6.4%
+==>>> it: 24, loss: ce 4.82 , APA 6.1450 , 80.0%
+==>>> it: 31, loss: ce 3.89 , APA 5.7848 , 100.0%
+Test task 0: Accuracy: 570/1000 (57.00%)
+Test task 1: Accuracy: 449/1000 (44.90%)
+Test task 2: Accuracy: 558/1000 (55.80%)
+Test task 3: Accuracy: 392/1000 (39.20%)
+Test task 4: Accuracy: 508/1000 (50.80%)
+Test task 5: Accuracy: 432/1000 (43.20%)
+Test task 6: Accuracy: 466/1000 (46.60%)
+Test task 7: Accuracy: 417/1000 (41.70%)
+tasks acc:[57.         44.90000153 55.79999924 39.20000076 50.79999924 43.20000076
+ 46.59999847 41.70000076  0.          0.        ]
+tasks avg acc:47.40000009536743
+-----------------------------run 9 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 3.36 , APA 6.3814 , 6.4%
+==>>> it: 24, loss: ce 4.35 , APA 6.3102 , 80.0%
+==>>> it: 31, loss: ce 4.38 , APA 6.3265 , 100.0%
+Test task 0: Accuracy: 416/1000 (41.60%)
+Test task 1: Accuracy: 381/1000 (38.10%)
+Test task 2: Accuracy: 488/1000 (48.80%)
+Test task 3: Accuracy: 433/1000 (43.30%)
+Test task 4: Accuracy: 454/1000 (45.40%)
+Test task 5: Accuracy: 548/1000 (54.80%)
+Test task 6: Accuracy: 497/1000 (49.70%)
+Test task 7: Accuracy: 482/1000 (48.20%)
+Test task 8: Accuracy: 445/1000 (44.50%)
+tasks acc:[41.59999847 38.09999847 48.79999924 43.29999924 45.40000153 54.79999924
+ 49.70000076 48.20000076 44.5         0.        ]
+tasks avg acc:46.044444190131294
+-----------------------------run 9 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 2.58 , APA 6.1029 , 6.4%
+==>>> it: 24, loss: ce 2.50 , APA 6.1676 , 80.0%
+==>>> it: 31, loss: ce 3.19 , APA 5.7381 , 100.0%
+Test task 0: Accuracy: 407/1000 (40.70%)
+Test task 1: Accuracy: 416/1000 (41.60%)
+Test task 2: Accuracy: 519/1000 (51.90%)
+Test task 3: Accuracy: 403/1000 (40.30%)
+Test task 4: Accuracy: 435/1000 (43.50%)
+Test task 5: Accuracy: 432/1000 (43.20%)
+Test task 6: Accuracy: 428/1000 (42.80%)
+Test task 7: Accuracy: 487/1000 (48.70%)
+Test task 8: Accuracy: 435/1000 (43.50%)
+Test task 9: Accuracy: 454/1000 (45.40%)
+tasks acc:[40.70000076 41.59999847 51.90000153 40.29999924 43.5        43.20000076
+ 42.79999924 48.70000076 43.5        45.40000153]
+tasks avg acc:44.160000228881835
+====================================================================================================
+9th run's Test result: Accuracy: 44.16%
+====================================================================================================
+====================================================================================================
+-----------------------------run 10 start--------------------------
+2024-05-24 16:44:01
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 10 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 59.70 , APA 5.8788 , 6.4%
+==>>> it: 24, loss: ce 14.35 , APA 5.8579 , 80.0%
+==>>> it: 31, loss: ce 13.12 , APA 5.6547 , 100.0%
+Test task 0: Accuracy: 552/1000 (55.20%)
+tasks acc:[55.20000076  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:55.20000076293945
+-----------------------------run 10 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 15.91 , APA 5.9286 , 6.4%
+==>>> it: 24, loss: ce 2.94 , APA 6.4139 , 80.0%
+==>>> it: 31, loss: ce 7.03 , APA 6.3941 , 100.0%
+Test task 0: Accuracy: 446/1000 (44.60%)
+Test task 1: Accuracy: 537/1000 (53.70%)
+tasks acc:[44.59999847 53.70000076  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:49.14999961853027
+-----------------------------run 10 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 4.22 , APA 6.3972 , 6.4%
+==>>> it: 24, loss: ce 2.78 , APA 6.2898 , 80.0%
+==>>> it: 31, loss: ce 6.55 , APA 6.4130 , 100.0%
+Test task 0: Accuracy: 535/1000 (53.50%)
+Test task 1: Accuracy: 492/1000 (49.20%)
+Test task 2: Accuracy: 414/1000 (41.40%)
+tasks acc:[53.5        49.20000076 41.40000153  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.03333409627279
+-----------------------------run 10 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 2.71 , APA 6.3169 , 6.4%
+==>>> it: 24, loss: ce 7.28 , APA 6.3764 , 80.0%
+==>>> it: 31, loss: ce 3.36 , APA 6.1752 , 100.0%
+Test task 0: Accuracy: 386/1000 (38.60%)
+Test task 1: Accuracy: 493/1000 (49.30%)
+Test task 2: Accuracy: 503/1000 (50.30%)
+Test task 3: Accuracy: 386/1000 (38.60%)
+tasks acc:[38.59999847 49.29999924 50.29999924 38.59999847  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:44.19999885559082
+-----------------------------run 10 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 4.57 , APA 6.7530 , 6.4%
+==>>> it: 24, loss: ce 4.52 , APA 6.5510 , 80.0%
+==>>> it: 31, loss: ce 4.78 , APA 6.3115 , 100.0%
+Test task 0: Accuracy: 441/1000 (44.10%)
+Test task 1: Accuracy: 444/1000 (44.40%)
+Test task 2: Accuracy: 515/1000 (51.50%)
+Test task 3: Accuracy: 402/1000 (40.20%)
+Test task 4: Accuracy: 383/1000 (38.30%)
+tasks acc:[44.09999847 44.40000153 51.5        40.20000076 38.29999924  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:43.7
+-----------------------------run 10 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 5.95 , APA 6.5454 , 6.4%
+==>>> it: 24, loss: ce 5.67 , APA 6.5625 , 80.0%
+==>>> it: 31, loss: ce 5.81 , APA 6.4971 , 100.0%
+Test task 0: Accuracy: 447/1000 (44.70%)
+Test task 1: Accuracy: 442/1000 (44.20%)
+Test task 2: Accuracy: 455/1000 (45.50%)
+Test task 3: Accuracy: 401/1000 (40.10%)
+Test task 4: Accuracy: 424/1000 (42.40%)
+Test task 5: Accuracy: 490/1000 (49.00%)
+tasks acc:[44.70000076 44.20000076 45.5        40.09999847 42.40000153 49.
+  0.          0.          0.          0.        ]
+tasks avg acc:44.31666692097982
+-----------------------------run 10 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 4.05 , APA 6.5477 , 6.4%
+==>>> it: 24, loss: ce 4.67 , APA 6.0455 , 80.0%
+==>>> it: 31, loss: ce 3.77 , APA 6.2723 , 100.0%
+Test task 0: Accuracy: 444/1000 (44.40%)
+Test task 1: Accuracy: 446/1000 (44.60%)
+Test task 2: Accuracy: 465/1000 (46.50%)
+Test task 3: Accuracy: 446/1000 (44.60%)
+Test task 4: Accuracy: 416/1000 (41.60%)
+Test task 5: Accuracy: 474/1000 (47.40%)
+Test task 6: Accuracy: 423/1000 (42.30%)
+tasks acc:[44.40000153 44.59999847 46.5        44.59999847 41.59999847 47.40000153
+ 42.29999924  0.          0.          0.        ]
+tasks avg acc:44.485713958740234
+-----------------------------run 10 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 2.75 , APA 6.3662 , 6.4%
+==>>> it: 24, loss: ce 3.42 , APA 6.3402 , 80.0%
+==>>> it: 31, loss: ce 3.97 , APA 6.3582 , 100.0%
+Test task 0: Accuracy: 432/1000 (43.20%)
+Test task 1: Accuracy: 440/1000 (44.00%)
+Test task 2: Accuracy: 441/1000 (44.10%)
+Test task 3: Accuracy: 417/1000 (41.70%)
+Test task 4: Accuracy: 430/1000 (43.00%)
+Test task 5: Accuracy: 478/1000 (47.80%)
+Test task 6: Accuracy: 412/1000 (41.20%)
+Test task 7: Accuracy: 497/1000 (49.70%)
+tasks acc:[43.20000076 44.         44.09999847 41.70000076 43.         47.79999924
+ 41.20000076 49.70000076  0.          0.        ]
+tasks avg acc:44.33750009536743
+-----------------------------run 10 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 4.14 , APA 6.5921 , 6.4%
+==>>> it: 24, loss: ce 3.91 , APA 6.7494 , 80.0%
+==>>> it: 31, loss: ce 4.59 , APA 6.0891 , 100.0%
+Test task 0: Accuracy: 438/1000 (43.80%)
+Test task 1: Accuracy: 401/1000 (40.10%)
+Test task 2: Accuracy: 517/1000 (51.70%)
+Test task 3: Accuracy: 434/1000 (43.40%)
+Test task 4: Accuracy: 495/1000 (49.50%)
+Test task 5: Accuracy: 496/1000 (49.60%)
+Test task 6: Accuracy: 453/1000 (45.30%)
+Test task 7: Accuracy: 406/1000 (40.60%)
+Test task 8: Accuracy: 392/1000 (39.20%)
+tasks acc:[43.79999924 40.09999847 51.70000076 43.40000153 49.5        49.59999847
+ 45.29999924 40.59999847 39.20000076  0.        ]
+tasks avg acc:44.7999996609158
+-----------------------------run 10 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.97 , APA 6.2409 , 6.4%
+==>>> it: 24, loss: ce 3.84 , APA 6.1335 , 80.0%
+==>>> it: 31, loss: ce 5.10 , APA 5.6226 , 100.0%
+Test task 0: Accuracy: 395/1000 (39.50%)
+Test task 1: Accuracy: 422/1000 (42.20%)
+Test task 2: Accuracy: 463/1000 (46.30%)
+Test task 3: Accuracy: 400/1000 (40.00%)
+Test task 4: Accuracy: 469/1000 (46.90%)
+Test task 5: Accuracy: 561/1000 (56.10%)
+Test task 6: Accuracy: 459/1000 (45.90%)
+Test task 7: Accuracy: 431/1000 (43.10%)
+Test task 8: Accuracy: 364/1000 (36.40%)
+Test task 9: Accuracy: 380/1000 (38.00%)
+tasks acc:[39.5        42.20000076 46.29999924 40.         46.90000153 56.09999847
+ 45.90000153 43.09999847 36.40000153 38.        ]
+tasks avg acc:43.44000015258789
+====================================================================================================
+10th run's Test result: Accuracy: 43.44%
+====================================================================================================
+====================================================================================================
+-----------------------------run 11 start--------------------------
+2024-05-24 16:48:54
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 11 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 94.70 , APA 5.8674 , 6.4%
+==>>> it: 24, loss: ce 10.43 , APA 5.8365 , 80.0%
+==>>> it: 31, loss: ce 21.06 , APA 5.8039 , 100.0%
+Test task 0: Accuracy: 574/1000 (57.40%)
+tasks acc:[57.40000153  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:57.400001525878906
+-----------------------------run 11 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 9.29 , APA 5.9286 , 6.4%
+==>>> it: 24, loss: ce 7.22 , APA 6.3475 , 80.0%
+==>>> it: 31, loss: ce 12.32 , APA 5.9030 , 100.0%
+Test task 0: Accuracy: 600/1000 (60.00%)
+Test task 1: Accuracy: 451/1000 (45.10%)
+tasks acc:[60.         45.09999847  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:52.54999923706055
+-----------------------------run 11 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 3.79 , APA 6.4557 , 6.4%
+==>>> it: 24, loss: ce 2.60 , APA 6.5841 , 80.0%
+==>>> it: 31, loss: ce 3.46 , APA 6.0883 , 100.0%
+Test task 0: Accuracy: 531/1000 (53.10%)
+Test task 1: Accuracy: 521/1000 (52.10%)
+Test task 2: Accuracy: 456/1000 (45.60%)
+tasks acc:[53.09999847 52.09999847 45.59999847  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:50.26666514078776
+-----------------------------run 11 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 6.74 , APA 6.5043 , 6.4%
+==>>> it: 24, loss: ce 5.84 , APA 6.5025 , 80.0%
+==>>> it: 31, loss: ce 2.71 , APA 6.4541 , 100.0%
+Test task 0: Accuracy: 485/1000 (48.50%)
+Test task 1: Accuracy: 468/1000 (46.80%)
+Test task 2: Accuracy: 396/1000 (39.60%)
+Test task 3: Accuracy: 433/1000 (43.30%)
+tasks acc:[48.5        46.79999924 39.59999847 43.29999924  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:44.54999923706055
+-----------------------------run 11 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 7.67 , APA 6.6542 , 6.4%
+==>>> it: 24, loss: ce 4.84 , APA 6.6510 , 80.0%
+==>>> it: 31, loss: ce 5.08 , APA 6.5942 , 100.0%
+Test task 0: Accuracy: 583/1000 (58.30%)
+Test task 1: Accuracy: 406/1000 (40.60%)
+Test task 2: Accuracy: 420/1000 (42.00%)
+Test task 3: Accuracy: 429/1000 (42.90%)
+Test task 4: Accuracy: 402/1000 (40.20%)
+tasks acc:[58.29999924 40.59999847 42.         42.90000153 40.20000076  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:44.8
+-----------------------------run 11 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 4.03 , APA 6.8330 , 6.4%
+==>>> it: 24, loss: ce 4.44 , APA 6.4099 , 80.0%
+==>>> it: 31, loss: ce 3.07 , APA 6.2398 , 100.0%
+Test task 0: Accuracy: 475/1000 (47.50%)
+Test task 1: Accuracy: 390/1000 (39.00%)
+Test task 2: Accuracy: 487/1000 (48.70%)
+Test task 3: Accuracy: 452/1000 (45.20%)
+Test task 4: Accuracy: 478/1000 (47.80%)
+Test task 5: Accuracy: 489/1000 (48.90%)
+tasks acc:[47.5        39.         48.70000076 45.20000076 47.79999924 48.90000153
+  0.          0.          0.          0.        ]
+tasks avg acc:46.18333371480306
+-----------------------------run 11 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 3.94 , APA 6.5220 , 6.4%
+==>>> it: 24, loss: ce 3.43 , APA 6.0874 , 80.0%
+==>>> it: 31, loss: ce 5.53 , APA 6.2227 , 100.0%
+Test task 0: Accuracy: 414/1000 (41.40%)
+Test task 1: Accuracy: 408/1000 (40.80%)
+Test task 2: Accuracy: 483/1000 (48.30%)
+Test task 3: Accuracy: 521/1000 (52.10%)
+Test task 4: Accuracy: 408/1000 (40.80%)
+Test task 5: Accuracy: 468/1000 (46.80%)
+Test task 6: Accuracy: 483/1000 (48.30%)
+tasks acc:[41.40000153 40.79999924 48.29999924 52.09999847 40.79999924 46.79999924
+ 48.29999924  0.          0.          0.        ]
+tasks avg acc:45.499999455043245
+-----------------------------run 11 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 3.02 , APA 6.1352 , 6.4%
+==>>> it: 24, loss: ce 3.85 , APA 6.0258 , 80.0%
+==>>> it: 31, loss: ce 4.26 , APA 5.8420 , 100.0%
+Test task 0: Accuracy: 459/1000 (45.90%)
+Test task 1: Accuracy: 425/1000 (42.50%)
+Test task 2: Accuracy: 435/1000 (43.50%)
+Test task 3: Accuracy: 397/1000 (39.70%)
+Test task 4: Accuracy: 406/1000 (40.60%)
+Test task 5: Accuracy: 452/1000 (45.20%)
+Test task 6: Accuracy: 475/1000 (47.50%)
+Test task 7: Accuracy: 422/1000 (42.20%)
+tasks acc:[45.90000153 42.5        43.5        39.70000076 40.59999847 45.20000076
+ 47.5        42.20000076  0.          0.        ]
+tasks avg acc:43.387500286102295
+-----------------------------run 11 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 3.13 , APA 6.2842 , 6.4%
+==>>> it: 24, loss: ce 5.65 , APA 6.8317 , 80.0%
+==>>> it: 31, loss: ce 4.20 , APA 6.3445 , 100.0%
+Test task 0: Accuracy: 428/1000 (42.80%)
+Test task 1: Accuracy: 431/1000 (43.10%)
+Test task 2: Accuracy: 581/1000 (58.10%)
+Test task 3: Accuracy: 411/1000 (41.10%)
+Test task 4: Accuracy: 419/1000 (41.90%)
+Test task 5: Accuracy: 472/1000 (47.20%)
+Test task 6: Accuracy: 389/1000 (38.90%)
+Test task 7: Accuracy: 492/1000 (49.20%)
+Test task 8: Accuracy: 370/1000 (37.00%)
+tasks acc:[42.79999924 43.09999847 58.09999847 41.09999847 41.90000153 47.20000076
+ 38.90000153 49.20000076 37.          0.        ]
+tasks avg acc:44.366666581895615
+-----------------------------run 11 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.75 , APA 6.3453 , 6.4%
+==>>> it: 24, loss: ce 3.92 , APA 6.0742 , 80.0%
+==>>> it: 31, loss: ce 4.09 , APA 5.6878 , 100.0%
+Test task 0: Accuracy: 396/1000 (39.60%)
+Test task 1: Accuracy: 433/1000 (43.30%)
+Test task 2: Accuracy: 419/1000 (41.90%)
+Test task 3: Accuracy: 412/1000 (41.20%)
+Test task 4: Accuracy: 406/1000 (40.60%)
+Test task 5: Accuracy: 406/1000 (40.60%)
+Test task 6: Accuracy: 487/1000 (48.70%)
+Test task 7: Accuracy: 483/1000 (48.30%)
+Test task 8: Accuracy: 470/1000 (47.00%)
+Test task 9: Accuracy: 363/1000 (36.30%)
+tasks acc:[39.59999847 43.29999924 41.90000153 41.20000076 40.59999847 40.59999847
+ 48.70000076 48.29999924 47.         36.29999924]
+tasks avg acc:42.749999618530275
+====================================================================================================
+11th run's Test result: Accuracy: 42.75%
+====================================================================================================
+====================================================================================================
+-----------------------------run 12 start--------------------------
+2024-05-24 16:53:47
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 12 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 67.26 , APA 5.8273 , 6.4%
+==>>> it: 24, loss: ce 16.24 , APA 5.8544 , 80.0%
+==>>> it: 31, loss: ce 28.23 , APA 5.7190 , 100.0%
+Test task 0: Accuracy: 427/1000 (42.70%)
+tasks acc:[42.70000076  0.          0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:42.70000076293945
+-----------------------------run 12 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 109.77 , APA 5.9683 , 6.4%
+==>>> it: 24, loss: ce nan , APA 6.4307 , 80.0%
+==>>> it: 31, loss: ce nan , APA 6.4994 , 100.0%
+Test task 0: Accuracy: 395/1000 (39.50%)
+Test task 1: Accuracy: 494/1000 (49.40%)
+tasks acc:[39.5        49.40000153  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:44.45000076293945
+-----------------------------run 12 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA 6.3700 , 6.4%
+==>>> it: 24, loss: ce 72.12 , APA 6.7228 , 80.0%
+==>>> it: 31, loss: ce 72.16 , APA 6.8650 , 100.0%
+Test task 0: Accuracy: 396/1000 (39.60%)
+Test task 1: Accuracy: 415/1000 (41.50%)
+Test task 2: Accuracy: 362/1000 (36.20%)
+tasks acc:[39.59999847 41.5        36.20000076  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:39.09999974568685
+-----------------------------run 12 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA nan , 6.4%
+==>>> it: 24, loss: ce 244.68 , APA 7.0472 , 80.0%
+==>>> it: 31, loss: ce 183.72 , APA 6.8390 , 100.0%
+Test task 0: Accuracy: 400/1000 (40.00%)
+Test task 1: Accuracy: 503/1000 (50.30%)
+Test task 2: Accuracy: 403/1000 (40.30%)
+Test task 3: Accuracy: 394/1000 (39.40%)
+tasks acc:[40.         50.29999924 40.29999924 39.40000153  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:42.5
+-----------------------------run 12 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA 7.1772 , 6.4%
+==>>> it: 24, loss: ce nan , APA nan , 80.0%
+==>>> it: 31, loss: ce 823.13 , APA 6.9822 , 100.0%
+Test task 0: Accuracy: 396/1000 (39.60%)
+Test task 1: Accuracy: 405/1000 (40.50%)
+Test task 2: Accuracy: 397/1000 (39.70%)
+Test task 3: Accuracy: 374/1000 (37.40%)
+Test task 4: Accuracy: 449/1000 (44.90%)
+tasks acc:[39.59999847 40.5        39.70000076 37.40000153 44.90000153  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:40.42000045776367
+-----------------------------run 12 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA 6.8811 , 6.4%
+==>>> it: 24, loss: ce nan , APA 7.1106 , 80.0%
+==>>> it: 31, loss: ce nan , APA 7.0618 , 100.0%
+Test task 0: Accuracy: 477/1000 (47.70%)
+Test task 1: Accuracy: 376/1000 (37.60%)
+Test task 2: Accuracy: 368/1000 (36.80%)
+Test task 3: Accuracy: 381/1000 (38.10%)
+Test task 4: Accuracy: 404/1000 (40.40%)
+Test task 5: Accuracy: 381/1000 (38.10%)
+tasks acc:[47.70000076 37.59999847 36.79999924 38.09999847 40.40000153 38.09999847
+  0.          0.          0.          0.        ]
+tasks avg acc:39.78333282470703
+-----------------------------run 12 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA 6.8604 , 6.4%
+==>>> it: 24, loss: ce nan , APA 6.9834 , 80.0%
+==>>> it: 31, loss: ce nan , APA 7.2811 , 100.0%
+Test task 0: Accuracy: 475/1000 (47.50%)
+Test task 1: Accuracy: 395/1000 (39.50%)
+Test task 2: Accuracy: 386/1000 (38.60%)
+Test task 3: Accuracy: 366/1000 (36.60%)
+Test task 4: Accuracy: 405/1000 (40.50%)
+Test task 5: Accuracy: 382/1000 (38.20%)
+Test task 6: Accuracy: 399/1000 (39.90%)
+tasks acc:[47.5        39.5        38.59999847 36.59999847 40.5        38.20000076
+ 39.90000153  0.          0.          0.        ]
+tasks avg acc:40.11428560529436
+-----------------------------run 12 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA 7.2472 , 6.4%
+==>>> it: 24, loss: ce nan , APA 7.1986 , 80.0%
+==>>> it: 31, loss: ce nan , APA nan , 100.0%
+Test task 0: Accuracy: 472/1000 (47.20%)
+Test task 1: Accuracy: 400/1000 (40.00%)
+Test task 2: Accuracy: 379/1000 (37.90%)
+Test task 3: Accuracy: 371/1000 (37.10%)
+Test task 4: Accuracy: 369/1000 (36.90%)
+Test task 5: Accuracy: 407/1000 (40.70%)
+Test task 6: Accuracy: 389/1000 (38.90%)
+Test task 7: Accuracy: 362/1000 (36.20%)
+tasks acc:[47.20000076 40.         37.90000153 37.09999847 36.90000153 40.70000076
+ 38.90000153 36.20000076  0.          0.        ]
+tasks avg acc:39.36250066757202
+-----------------------------run 12 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA nan , 6.4%
+==>>> it: 24, loss: ce nan , APA nan , 80.0%
+==>>> it: 31, loss: ce nan , APA nan , 100.0%
+Test task 0: Accuracy: 472/1000 (47.20%)
+Test task 1: Accuracy: 371/1000 (37.10%)
+Test task 2: Accuracy: 364/1000 (36.40%)
+Test task 3: Accuracy: 369/1000 (36.90%)
+Test task 4: Accuracy: 362/1000 (36.20%)
+Test task 5: Accuracy: 391/1000 (39.10%)
+Test task 6: Accuracy: 368/1000 (36.80%)
+Test task 7: Accuracy: 391/1000 (39.10%)
+Test task 8: Accuracy: 390/1000 (39.00%)
+tasks acc:[47.20000076 37.09999847 36.40000153 36.90000153 36.20000076 39.09999847
+ 36.79999924 39.09999847 39.          0.        ]
+tasks avg acc:38.64444435967339
+-----------------------------run 12 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce nan , APA 7.2725 , 6.4%
+==>>> it: 24, loss: ce nan , APA 7.2725 , 80.0%
+==>>> it: 31, loss: ce nan , APA 7.4556 , 100.0%
+Test task 0: Accuracy: 488/1000 (48.80%)
+Test task 1: Accuracy: 385/1000 (38.50%)
+Test task 2: Accuracy: 374/1000 (37.40%)
+Test task 3: Accuracy: 403/1000 (40.30%)
+Test task 4: Accuracy: 377/1000 (37.70%)
+Test task 5: Accuracy: 382/1000 (38.20%)
+Test task 6: Accuracy: 391/1000 (39.10%)
+Test task 7: Accuracy: 385/1000 (38.50%)
+Test task 8: Accuracy: 407/1000 (40.70%)
+Test task 9: Accuracy: 407/1000 (40.70%)
+tasks acc:[48.79999924 38.5        37.40000153 40.29999924 37.70000076 38.20000076
+ 39.09999847 38.5        40.70000076 40.70000076]
+tasks avg acc:39.99000015258789
+====================================================================================================
+12th run's Test result: Accuracy: 39.99%
+====================================================================================================
+====================================================================================================
+-----------------------------run 13 start--------------------------
+2024-05-24 16:58:37
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 13 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 47.96 , APA 5.8148 , 6.4%
+==>>> it: 24, loss: ce 14.54 , APA 5.8440 , 80.0%
+==>>> it: 31, loss: ce 10.94 , APA 5.7063 , 100.0%
+Test task 0: Accuracy: 630/1000 (63.00%)
+tasks acc:[63.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+tasks avg acc:63.0
+-----------------------------run 13 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 8.17 , APA 5.8884 , 6.4%
+==>>> it: 24, loss: ce 9.50 , APA 6.2974 , 80.0%
+==>>> it: 31, loss: ce 9.97 , APA 6.2212 , 100.0%
+Test task 0: Accuracy: 562/1000 (56.20%)
+Test task 1: Accuracy: 404/1000 (40.40%)
+tasks acc:[56.20000076 40.40000153  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.30000114440918
+-----------------------------run 13 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 4.14 , APA 6.3031 , 6.4%
+==>>> it: 24, loss: ce 7.79 , APA 6.5955 , 80.0%
+==>>> it: 31, loss: ce 6.80 , APA 6.5930 , 100.0%
+Test task 0: Accuracy: 403/1000 (40.30%)
+Test task 1: Accuracy: 448/1000 (44.80%)
+Test task 2: Accuracy: 477/1000 (47.70%)
+tasks acc:[40.29999924 44.79999924 47.70000076  0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:44.266666412353516
+-----------------------------run 13 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 9.78 , APA 6.4140 , 6.4%
+==>>> it: 24, loss: ce 4.88 , APA 6.5882 , 80.0%
+==>>> it: 31, loss: ce 8.69 , APA 6.5704 , 100.0%
+Test task 0: Accuracy: 398/1000 (39.80%)
+Test task 1: Accuracy: 416/1000 (41.60%)
+Test task 2: Accuracy: 457/1000 (45.70%)
+Test task 3: Accuracy: 454/1000 (45.40%)
+tasks acc:[39.79999924 41.59999847 45.70000076 45.40000153  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:43.125
+-----------------------------run 13 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 7.91 , APA 6.7629 , 6.4%
+==>>> it: 24, loss: ce 5.37 , APA 6.7782 , 80.0%
+==>>> it: 31, loss: ce 3.07 , APA 6.1942 , 100.0%
+Test task 0: Accuracy: 463/1000 (46.30%)
+Test task 1: Accuracy: 423/1000 (42.30%)
+Test task 2: Accuracy: 467/1000 (46.70%)
+Test task 3: Accuracy: 415/1000 (41.50%)
+Test task 4: Accuracy: 492/1000 (49.20%)
+tasks acc:[46.29999924 42.29999924 46.70000076 41.5        49.20000076  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:45.2
+-----------------------------run 13 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 6.62 , APA 6.9100 , 6.4%
+==>>> it: 24, loss: ce 5.03 , APA 6.7990 , 80.0%
+==>>> it: 31, loss: ce 5.95 , APA 5.8845 , 100.0%
+Test task 0: Accuracy: 383/1000 (38.30%)
+Test task 1: Accuracy: 428/1000 (42.80%)
+Test task 2: Accuracy: 425/1000 (42.50%)
+Test task 3: Accuracy: 465/1000 (46.50%)
+Test task 4: Accuracy: 408/1000 (40.80%)
+Test task 5: Accuracy: 437/1000 (43.70%)
+tasks acc:[38.29999924 42.79999924 42.5        46.5        40.79999924 43.70000076
+  0.          0.          0.          0.        ]
+tasks avg acc:42.43333307902018
+-----------------------------run 13 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 5.38 , APA 6.5835 , 6.4%
+==>>> it: 24, loss: ce 5.34 , APA 6.5374 , 80.0%
+==>>> it: 31, loss: ce 3.74 , APA 6.0591 , 100.0%
+Test task 0: Accuracy: 484/1000 (48.40%)
+Test task 1: Accuracy: 416/1000 (41.60%)
+Test task 2: Accuracy: 426/1000 (42.60%)
+Test task 3: Accuracy: 409/1000 (40.90%)
+Test task 4: Accuracy: 374/1000 (37.40%)
+Test task 5: Accuracy: 477/1000 (47.70%)
+Test task 6: Accuracy: 453/1000 (45.30%)
+tasks acc:[48.40000153 41.59999847 42.59999847 40.90000153 37.40000153 47.70000076
+ 45.29999924  0.          0.          0.        ]
+tasks avg acc:43.41428593226841
+-----------------------------run 13 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 3.57 , APA 6.6404 , 6.4%
+==>>> it: 24, loss: ce 4.78 , APA 6.1089 , 80.0%
+==>>> it: 31, loss: ce 9.67 , APA 6.0729 , 100.0%
+Test task 0: Accuracy: 434/1000 (43.40%)
+Test task 1: Accuracy: 459/1000 (45.90%)
+Test task 2: Accuracy: 419/1000 (41.90%)
+Test task 3: Accuracy: 382/1000 (38.20%)
+Test task 4: Accuracy: 470/1000 (47.00%)
+Test task 5: Accuracy: 450/1000 (45.00%)
+Test task 6: Accuracy: 515/1000 (51.50%)
+Test task 7: Accuracy: 457/1000 (45.70%)
+tasks acc:[43.40000153 45.90000153 41.90000153 38.20000076 47.         45.
+ 51.5        45.70000076  0.          0.        ]
+tasks avg acc:44.82500076293945
+-----------------------------run 13 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 5.54 , APA 6.9261 , 6.4%
+==>>> it: 24, loss: ce 4.78 , APA 6.6380 , 80.0%
+==>>> it: 31, loss: ce 5.09 , APA 6.2470 , 100.0%
+Test task 0: Accuracy: 415/1000 (41.50%)
+Test task 1: Accuracy: 379/1000 (37.90%)
+Test task 2: Accuracy: 492/1000 (49.20%)
+Test task 3: Accuracy: 403/1000 (40.30%)
+Test task 4: Accuracy: 468/1000 (46.80%)
+Test task 5: Accuracy: 499/1000 (49.90%)
+Test task 6: Accuracy: 507/1000 (50.70%)
+Test task 7: Accuracy: 433/1000 (43.30%)
+Test task 8: Accuracy: 388/1000 (38.80%)
+tasks acc:[41.5        37.90000153 49.20000076 40.29999924 46.79999924 49.90000153
+ 50.70000076 43.29999924 38.79999924  0.        ]
+tasks avg acc:44.26666683620877
+-----------------------------run 13 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 3.57 , APA 6.3397 , 6.4%
+==>>> it: 24, loss: ce 3.08 , APA 6.1396 , 80.0%
+==>>> it: 31, loss: ce 3.70 , APA 5.8755 , 100.0%
+Test task 0: Accuracy: 464/1000 (46.40%)
+Test task 1: Accuracy: 443/1000 (44.30%)
+Test task 2: Accuracy: 457/1000 (45.70%)
+Test task 3: Accuracy: 384/1000 (38.40%)
+Test task 4: Accuracy: 418/1000 (41.80%)
+Test task 5: Accuracy: 466/1000 (46.60%)
+Test task 6: Accuracy: 508/1000 (50.80%)
+Test task 7: Accuracy: 454/1000 (45.40%)
+Test task 8: Accuracy: 457/1000 (45.70%)
+Test task 9: Accuracy: 399/1000 (39.90%)
+tasks acc:[46.40000153 44.29999924 45.70000076 38.40000153 41.79999924 46.59999847
+ 50.79999924 45.40000153 45.70000076 39.90000153]
+tasks avg acc:44.500000381469725
+====================================================================================================
+13th run's Test result: Accuracy: 44.50%
+====================================================================================================
+====================================================================================================
+-----------------------------run 14 start--------------------------
+2024-05-24 17:03:32
+====================================================================================================
+Task order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Data and loader is prepared
+buffer has 2000 slots
+bx torch.Size([2000, 3, 32, 32])
+-----------------------------run 14 task id:0 start training-----------------------------
+==>>> it: 1, loss: ce 70.68 , APA 5.8674 , 6.4%
+==>>> it: 24, loss: ce 14.62 , APA 5.8784 , 80.0%
+==>>> it: 31, loss: ce 30.89 , APA 5.8387 , 100.0%
+Test task 0: Accuracy: 295/1000 (29.50%)
+tasks acc:[29.5  0.   0.   0.   0.   0.   0.   0.   0.   0. ]
+tasks avg acc:29.5
+-----------------------------run 14 task id:1 start training-----------------------------
+==>>> it: 1, loss: ce 4.96 , APA 6.0640 , 6.4%
+==>>> it: 24, loss: ce 14.07 , APA 6.5052 , 80.0%
+==>>> it: 31, loss: ce 13.91 , APA 6.3238 , 100.0%
+Test task 0: Accuracy: 579/1000 (57.90%)
+Test task 1: Accuracy: 383/1000 (38.30%)
+tasks acc:[57.90000153 38.29999924  0.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:48.10000038146973
+-----------------------------run 14 task id:2 start training-----------------------------
+==>>> it: 1, loss: ce 4.95 , APA 6.4526 , 6.4%
+==>>> it: 24, loss: ce 8.00 , APA 6.4354 , 80.0%
+==>>> it: 31, loss: ce 3.30 , APA 6.6432 , 100.0%
+Test task 0: Accuracy: 426/1000 (42.60%)
+Test task 1: Accuracy: 452/1000 (45.20%)
+Test task 2: Accuracy: 380/1000 (38.00%)
+tasks acc:[42.59999847 45.20000076 38.          0.          0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:41.93333307902018
+-----------------------------run 14 task id:3 start training-----------------------------
+==>>> it: 1, loss: ce 27.50 , APA 6.8370 , 6.4%
+==>>> it: 24, loss: ce 17.75 , APA nan , 80.0%
+==>>> it: 31, loss: ce 16.12 , APA 6.7755 , 100.0%
+Test task 0: Accuracy: 370/1000 (37.00%)
+Test task 1: Accuracy: 392/1000 (39.20%)
+Test task 2: Accuracy: 371/1000 (37.10%)
+Test task 3: Accuracy: 403/1000 (40.30%)
+tasks acc:[37.         39.20000076 37.09999847 40.29999924  0.          0.
+  0.          0.          0.          0.        ]
+tasks avg acc:38.39999961853027
+-----------------------------run 14 task id:4 start training-----------------------------
+==>>> it: 1, loss: ce 28.39 , APA 6.8707 , 6.4%
+==>>> it: 24, loss: ce 32.20 , APA nan , 80.0%
+==>>> it: 31, loss: ce 35.52 , APA 7.0255 , 100.0%
+Test task 0: Accuracy: 409/1000 (40.90%)
+Test task 1: Accuracy: 380/1000 (38.00%)
+Test task 2: Accuracy: 383/1000 (38.30%)
+Test task 3: Accuracy: 387/1000 (38.70%)
+Test task 4: Accuracy: 374/1000 (37.40%)
+tasks acc:[40.90000153 38.         38.29999924 38.70000076 37.40000153  0.
+  0.          0.          0.          0.        ]
+tasks avg acc:38.66000061035156
+-----------------------------run 14 task id:5 start training-----------------------------
+==>>> it: 1, loss: ce 26.07 , APA nan , 6.4%
+==>>> it: 24, loss: ce 26.81 , APA 7.0992 , 80.0%
+==>>> it: 31, loss: ce 36.53 , APA 6.8558 , 100.0%
+Test task 0: Accuracy: 390/1000 (39.00%)
+Test task 1: Accuracy: 390/1000 (39.00%)
+Test task 2: Accuracy: 379/1000 (37.90%)
+Test task 3: Accuracy: 382/1000 (38.20%)
+Test task 4: Accuracy: 390/1000 (39.00%)
+Test task 5: Accuracy: 386/1000 (38.60%)
+tasks acc:[39.         39.         37.90000153 38.20000076 39.         38.59999847
+  0.          0.          0.          0.        ]
+tasks avg acc:38.61666679382324
+-----------------------------run 14 task id:6 start training-----------------------------
+==>>> it: 1, loss: ce 34.94 , APA 7.1744 , 6.4%
+==>>> it: 24, loss: ce 35.03 , APA 7.0490 , 80.0%
+==>>> it: 31, loss: ce 39.97 , APA 6.7365 , 100.0%
+Test task 0: Accuracy: 376/1000 (37.60%)
+Test task 1: Accuracy: 392/1000 (39.20%)
+Test task 2: Accuracy: 370/1000 (37.00%)
+Test task 3: Accuracy: 399/1000 (39.90%)
+Test task 4: Accuracy: 364/1000 (36.40%)
+Test task 5: Accuracy: 396/1000 (39.60%)
+Test task 6: Accuracy: 432/1000 (43.20%)
+tasks acc:[37.59999847 39.20000076 37.         39.90000153 36.40000153 39.59999847
+ 43.20000076  0.          0.          0.        ]
+tasks avg acc:38.98571450369699
+-----------------------------run 14 task id:7 start training-----------------------------
+==>>> it: 1, loss: ce 43.00 , APA nan , 6.4%
+==>>> it: 24, loss: ce 24.74 , APA 7.2562 , 80.0%
+==>>> it: 31, loss: ce 39.00 , APA 7.1005 , 100.0%
+Test task 0: Accuracy: 380/1000 (38.00%)
+Test task 1: Accuracy: 403/1000 (40.30%)
+Test task 2: Accuracy: 396/1000 (39.60%)
+Test task 3: Accuracy: 397/1000 (39.70%)
+Test task 4: Accuracy: 385/1000 (38.50%)
+Test task 5: Accuracy: 402/1000 (40.20%)
+Test task 6: Accuracy: 435/1000 (43.50%)
+Test task 7: Accuracy: 392/1000 (39.20%)
+tasks acc:[38.         40.29999924 39.59999847 39.70000076 38.5        40.20000076
+ 43.5        39.20000076  0.          0.        ]
+tasks avg acc:39.875
+-----------------------------run 14 task id:8 start training-----------------------------
+==>>> it: 1, loss: ce 30.57 , APA 7.1548 , 6.4%
+==>>> it: 24, loss: ce 41.32 , APA nan , 80.0%
+==>>> it: 31, loss: ce 47.68 , APA 7.3027 , 100.0%
+Test task 0: Accuracy: 365/1000 (36.50%)
+Test task 1: Accuracy: 423/1000 (42.30%)
+Test task 2: Accuracy: 382/1000 (38.20%)
+Test task 3: Accuracy: 393/1000 (39.30%)
+Test task 4: Accuracy: 395/1000 (39.50%)
+Test task 5: Accuracy: 393/1000 (39.30%)
+Test task 6: Accuracy: 414/1000 (41.40%)
+Test task 7: Accuracy: 401/1000 (40.10%)
+Test task 8: Accuracy: 372/1000 (37.20%)
+tasks acc:[36.5        42.29999924 38.20000076 39.29999924 39.5        39.29999924
+ 41.40000153 40.09999847 37.20000076  0.        ]
+tasks avg acc:39.31111102634006
+-----------------------------run 14 task id:9 start training-----------------------------
+==>>> it: 1, loss: ce 43.24 , APA 7.2614 , 6.4%
+==>>> it: 24, loss: ce 40.39 , APA nan , 80.0%
+==>>> it: 31, loss: ce 37.15 , APA 7.2011 , 100.0%
+Test task 0: Accuracy: 385/1000 (38.50%)
+Test task 1: Accuracy: 404/1000 (40.40%)
+Test task 2: Accuracy: 373/1000 (37.30%)
+Test task 3: Accuracy: 391/1000 (39.10%)
+Test task 4: Accuracy: 374/1000 (37.40%)
+Test task 5: Accuracy: 368/1000 (36.80%)
+Test task 6: Accuracy: 468/1000 (46.80%)
+Test task 7: Accuracy: 387/1000 (38.70%)
+Test task 8: Accuracy: 376/1000 (37.60%)
+Test task 9: Accuracy: 389/1000 (38.90%)
+tasks acc:[38.5        40.40000153 37.29999924 39.09999847 37.40000153 36.79999924
+ 46.79999924 38.70000076 37.59999847 38.90000153]
+tasks avg acc:39.15
+====================================================================================================
+14th run's Test result: Accuracy: 39.15%
+====================================================================================================
+====================================================================================================
+total 15runs test acc results: tensor([44.5000, 45.3000, 45.6800, 46.0200, 39.4500, 45.8500, 43.7800, 38.6200,
+        39.3200, 44.1600, 43.4400, 42.7500, 39.9900, 44.5000, 39.1500])
+----------- Avg_End_Acc (42.833999938964844, 1.5182097886271295) Avg_End_Fgt (5.5426666768391915, 1.033575853479113)
